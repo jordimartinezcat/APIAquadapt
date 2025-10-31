@@ -1,0 +1,3798 @@
+[
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/flowschedule/detailed/"
+    },
+    "id": "040b3d5d-a68a-dc52-0623-5d2f6fcd2682",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/inservice/detailed/"
+    },
+    "name": "EB3 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/040b3d5d-a68a-dc52-0623-5d2f6fcd2682/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/flowschedule/detailed/"
+    },
+    "id": "0ab3ed7a-6750-da0b-fec7-b5901162de9d",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/inservice/detailed/"
+    },
+    "name": "EB25 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0ab3ed7a-6750-da0b-fec7-b5901162de9d/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/flowschedule/detailed/"
+    },
+    "id": "0f55305c-fa54-4111-e10f-9eff39c40e6a",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/inservice/detailed/"
+    },
+    "name": "EB3 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/0f55305c-fa54-4111-e10f-9eff39c40e6a/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/flowschedule/detailed/"
+    },
+    "id": "10a3dfff-b073-8f26-80dd-0b704a50473e",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/inservice/detailed/"
+    },
+    "name": "EB12 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/10a3dfff-b073-8f26-80dd-0b704a50473e/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/flowschedule/detailed/"
+    },
+    "id": "12388acf-22ff-dbcf-f0db-530e23f5d69b",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/inservice/detailed/"
+    },
+    "name": "EB23 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12388acf-22ff-dbcf-f0db-530e23f5d69b/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/flowschedule/detailed/"
+    },
+    "id": "12c27cdd-004f-038c-d0d6-37447452c0f8",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/inservice/detailed/"
+    },
+    "name": "EB9 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/12c27cdd-004f-038c-d0d6-37447452c0f8/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/flowschedule/detailed/"
+    },
+    "id": "1d415a90-f3ce-a74f-2705-c1640ab747f7",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/inservice/detailed/"
+    },
+    "name": "EB6 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/1d415a90-f3ce-a74f-2705-c1640ab747f7/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/flowschedule/detailed/"
+    },
+    "id": "2030fcee-5288-493c-9fab-195918c4e362",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/inservice/detailed/"
+    },
+    "name": "EB11 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2030fcee-5288-493c-9fab-195918c4e362/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/flowschedule/detailed/"
+    },
+    "id": "209c234c-2332-7628-3306-bfbb9384270d",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/inservice/detailed/"
+    },
+    "name": "EB7 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/209c234c-2332-7628-3306-bfbb9384270d/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/flowschedule/detailed/"
+    },
+    "id": "21301b1b-d273-03ee-a650-71896b0aca61",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/inservice/detailed/"
+    },
+    "name": "EB0 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/21301b1b-d273-03ee-a650-71896b0aca61/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/flowschedule/detailed/"
+    },
+    "id": "22bd7cee-d84b-c36b-bfb3-696d7321fe86",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/inservice/detailed/"
+    },
+    "name": "EB4 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/22bd7cee-d84b-c36b-bfb3-696d7321fe86/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/flowschedule/detailed/"
+    },
+    "id": "23d9f088-fb6a-6861-a594-004900f0c556",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/inservice/detailed/"
+    },
+    "name": "EB8 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/23d9f088-fb6a-6861-a594-004900f0c556/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/flowschedule/detailed/"
+    },
+    "id": "2620dfe2-afd5-aa5c-e4d8-d739e4679072",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/inservice/detailed/"
+    },
+    "name": "EB14 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2620dfe2-afd5-aa5c-e4d8-d739e4679072/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/flowschedule/detailed/"
+    },
+    "id": "27bce447-f233-b9a1-1209-4ef8d618e63f",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/inservice/detailed/"
+    },
+    "name": "EB25 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/27bce447-f233-b9a1-1209-4ef8d618e63f/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/flowschedule/detailed/"
+    },
+    "id": "2942dbdd-b6a5-c098-77ee-8e062c5d77de",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/inservice/detailed/"
+    },
+    "name": "EB10 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2942dbdd-b6a5-c098-77ee-8e062c5d77de/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/flowschedule/detailed/"
+    },
+    "id": "29809cd4-53ff-7072-3fec-1139d4f38bf4",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/inservice/detailed/"
+    },
+    "name": "EB18 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/29809cd4-53ff-7072-3fec-1139d4f38bf4/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/flowschedule/detailed/"
+    },
+    "id": "2b56dbef-e4fc-a670-bd98-d4059d720e58",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/inservice/detailed/"
+    },
+    "name": "EB10 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2b56dbef-e4fc-a670-bd98-d4059d720e58/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/flowschedule/detailed/"
+    },
+    "id": "2f725c00-1e37-2277-fe0d-a6ca4af272b8",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/inservice/detailed/"
+    },
+    "name": "EB6 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/2f725c00-1e37-2277-fe0d-a6ca4af272b8/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/flowschedule/detailed/"
+    },
+    "id": "31e60c71-c9d3-0476-668c-0a8f9acdc7d1",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/inservice/detailed/"
+    },
+    "name": "EB10 G5",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/31e60c71-c9d3-0476-668c-0a8f9acdc7d1/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/flowschedule/detailed/"
+    },
+    "id": "4207a617-b8cc-35ff-f4b1-9e4fabe7e09c",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/inservice/detailed/"
+    },
+    "name": "EB13 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4207a617-b8cc-35ff-f4b1-9e4fabe7e09c/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/flowschedule/detailed/"
+    },
+    "id": "42e16654-a233-f11a-dbce-d8a98ab0a51d",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/inservice/detailed/"
+    },
+    "name": "EB18 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/42e16654-a233-f11a-dbce-d8a98ab0a51d/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/flowschedule/detailed/"
+    },
+    "id": "47ca0892-f07f-80a1-a3c5-60d85aa08438",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/inservice/detailed/"
+    },
+    "name": "EB13 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/47ca0892-f07f-80a1-a3c5-60d85aa08438/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/flowschedule/detailed/"
+    },
+    "id": "4988a0c5-69a5-d551-74b6-9080961896ec",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/inservice/detailed/"
+    },
+    "name": "EB0 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4988a0c5-69a5-d551-74b6-9080961896ec/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/flowschedule/detailed/"
+    },
+    "id": "4a00013a-c251-ec84-7559-7d23839bab36",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/inservice/detailed/"
+    },
+    "name": "EB0 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4a00013a-c251-ec84-7559-7d23839bab36/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/flowschedule/detailed/"
+    },
+    "id": "4b1a6219-b1f6-4fb3-9733-9a600dcaa82e",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/inservice/detailed/"
+    },
+    "name": "EB6 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/4b1a6219-b1f6-4fb3-9733-9a600dcaa82e/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/flowschedule/detailed/"
+    },
+    "id": "538f04a0-20ce-3fac-475d-c331fd756872",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/inservice/detailed/"
+    },
+    "name": "EB3 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/538f04a0-20ce-3fac-475d-c331fd756872/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/flowschedule/detailed/"
+    },
+    "id": "5a7ee701-dced-6871-0c68-c7cb73c00d41",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/inservice/detailed/"
+    },
+    "name": "EB0 G5",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/5a7ee701-dced-6871-0c68-c7cb73c00d41/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/flowschedule/detailed/"
+    },
+    "id": "626414e7-db9d-ff87-bd8d-97ae22c5ad41",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/inservice/detailed/"
+    },
+    "name": "EB16 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/626414e7-db9d-ff87-bd8d-97ae22c5ad41/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/flowschedule/detailed/"
+    },
+    "id": "62e0cfd4-8fed-36ee-2361-ec17cac672b5",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/inservice/detailed/"
+    },
+    "name": "EB7 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/62e0cfd4-8fed-36ee-2361-ec17cac672b5/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/flowschedule/detailed/"
+    },
+    "id": "6452eb55-641d-5ab9-b5fe-686dc7867349",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/inservice/detailed/"
+    },
+    "name": "EB9 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6452eb55-641d-5ab9-b5fe-686dc7867349/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/flowschedule/detailed/"
+    },
+    "id": "64f8eb41-0131-88db-1da8-c3bc172b1098",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/inservice/detailed/"
+    },
+    "name": "EB19 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/64f8eb41-0131-88db-1da8-c3bc172b1098/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/flowschedule/detailed/"
+    },
+    "id": "6581f6b9-21d4-e86f-56e5-1b14c9b4d25a",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/inservice/detailed/"
+    },
+    "name": "EB14 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/6581f6b9-21d4-e86f-56e5-1b14c9b4d25a/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/flowschedule/detailed/"
+    },
+    "id": "76dac507-734d-793d-44d8-45a2cbc55fe6",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/inservice/detailed/"
+    },
+    "name": "EB12 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/76dac507-734d-793d-44d8-45a2cbc55fe6/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/flowschedule/detailed/"
+    },
+    "id": "803c6d9c-1e10-7138-3639-04a5d01e997c",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/inservice/detailed/"
+    },
+    "name": "EB12 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/803c6d9c-1e10-7138-3639-04a5d01e997c/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/flowschedule/detailed/"
+    },
+    "id": "891cb7b1-c6bb-cbab-3d6b-ea286b728f29",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/inservice/detailed/"
+    },
+    "name": "EB4 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/891cb7b1-c6bb-cbab-3d6b-ea286b728f29/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/flowschedule/detailed/"
+    },
+    "id": "96c4251c-3b00-ed06-8ac6-364e4e36e9b7",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/inservice/detailed/"
+    },
+    "name": "EB23 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/96c4251c-3b00-ed06-8ac6-364e4e36e9b7/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/flowschedule/detailed/"
+    },
+    "id": "986d86dd-9400-f9b8-e0fd-b0159c9bd3da",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/inservice/detailed/"
+    },
+    "name": "EB5 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/986d86dd-9400-f9b8-e0fd-b0159c9bd3da/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/flowschedule/detailed/"
+    },
+    "id": "9c0e305f-81c4-ac36-5f67-fee2f63503b9",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/inservice/detailed/"
+    },
+    "name": "EB0 G6",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9c0e305f-81c4-ac36-5f67-fee2f63503b9/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/flowschedule/detailed/"
+    },
+    "id": "9e27900c-8760-adb7-cc8c-2ec35822c75f",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/inservice/detailed/"
+    },
+    "name": "EB20 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e27900c-8760-adb7-cc8c-2ec35822c75f/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/flowschedule/detailed/"
+    },
+    "id": "9e67c37c-28a8-90a9-f1fa-193b760964b0",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/inservice/detailed/"
+    },
+    "name": "EB15 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/9e67c37c-28a8-90a9-f1fa-193b760964b0/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/flowschedule/detailed/"
+    },
+    "id": "a4524a40-dcd7-81e3-ac9c-5f11d5eab588",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/inservice/detailed/"
+    },
+    "name": "EB19 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a4524a40-dcd7-81e3-ac9c-5f11d5eab588/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/flowschedule/detailed/"
+    },
+    "id": "a9408408-b13f-78e5-d3fe-d149625d65ab",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/inservice/detailed/"
+    },
+    "name": "EB2 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9408408-b13f-78e5-d3fe-d149625d65ab/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/flowschedule/detailed/"
+    },
+    "id": "a9a81875-2936-20a6-04d7-79279d36dc43",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/inservice/detailed/"
+    },
+    "name": "EB1 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/a9a81875-2936-20a6-04d7-79279d36dc43/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/flowschedule/detailed/"
+    },
+    "id": "aa7ae14f-2dc6-152f-1ddd-bb90fd77be36",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/inservice/detailed/"
+    },
+    "name": "EB10 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/aa7ae14f-2dc6-152f-1ddd-bb90fd77be36/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/flowschedule/detailed/"
+    },
+    "id": "b2def6b9-fa23-389b-da6d-6d9197107706",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/inservice/detailed/"
+    },
+    "name": "EB2 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b2def6b9-fa23-389b-da6d-6d9197107706/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/flowschedule/detailed/"
+    },
+    "id": "b6e85386-8058-bd7d-550c-63b68ac6fc8a",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/inservice/detailed/"
+    },
+    "name": "EB17 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b6e85386-8058-bd7d-550c-63b68ac6fc8a/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/flowschedule/detailed/"
+    },
+    "id": "b8ecf06e-505c-0f7a-9252-1d901be258ce",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/inservice/detailed/"
+    },
+    "name": "EB12 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/b8ecf06e-505c-0f7a-9252-1d901be258ce/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/flowschedule/detailed/"
+    },
+    "id": "bd4cd3b7-e43f-901d-cfad-1d52043e8aef",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/inservice/detailed/"
+    },
+    "name": "EB6 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/bd4cd3b7-e43f-901d-cfad-1d52043e8aef/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/flowschedule/detailed/"
+    },
+    "id": "be377417-c964-f67d-91de-c6ce54712e90",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/inservice/detailed/"
+    },
+    "name": "EB4 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/be377417-c964-f67d-91de-c6ce54712e90/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/flowschedule/detailed/"
+    },
+    "id": "c45ec60e-52a5-8130-16eb-10fac0bb0bd6",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/inservice/detailed/"
+    },
+    "name": "EB15 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c45ec60e-52a5-8130-16eb-10fac0bb0bd6/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/flowschedule/detailed/"
+    },
+    "id": "c77912c7-8e99-c8b4-70a4-c40baf29780f",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/inservice/detailed/"
+    },
+    "name": "EB3 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c77912c7-8e99-c8b4-70a4-c40baf29780f/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/flowschedule/detailed/"
+    },
+    "id": "c8a207ce-3372-950b-af00-4448e626c0be",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/inservice/detailed/"
+    },
+    "name": "EB1 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8a207ce-3372-950b-af00-4448e626c0be/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/flowschedule/detailed/"
+    },
+    "id": "c8b0d078-a543-c0ee-cd6a-3716c3e814aa",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/inservice/detailed/"
+    },
+    "name": "EB8 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/c8b0d078-a543-c0ee-cd6a-3716c3e814aa/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/flowschedule/detailed/"
+    },
+    "id": "d19efea5-5322-d3f7-d011-45eb926f51c9",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/inservice/detailed/"
+    },
+    "name": "EB25 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d19efea5-5322-d3f7-d011-45eb926f51c9/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/flowschedule/detailed/"
+    },
+    "id": "d3169550-62f3-b60a-68b8-b8b0c2cf2ea8",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/inservice/detailed/"
+    },
+    "name": "EB1 G4",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3169550-62f3-b60a-68b8-b8b0c2cf2ea8/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/flowschedule/detailed/"
+    },
+    "id": "d3b5ffab-1c25-6afd-e37f-96d4a72f0104",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/inservice/detailed/"
+    },
+    "name": "EB17 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d3b5ffab-1c25-6afd-e37f-96d4a72f0104/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/flowschedule/detailed/"
+    },
+    "id": "d71fea76-053e-8c35-f120-e5e2cc049c88",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/inservice/detailed/"
+    },
+    "name": "EB13 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d71fea76-053e-8c35-f120-e5e2cc049c88/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/flowschedule/detailed/"
+    },
+    "id": "d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/inservice/detailed/"
+    },
+    "name": "EB10 G6",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d85f4e5c-c1b7-0ce0-5007-6f89839ef2c3/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/flowschedule/detailed/"
+    },
+    "id": "d98710ae-0377-ab1f-2ddd-02d3ac8d8262",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/inservice/detailed/"
+    },
+    "name": "EB2 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/d98710ae-0377-ab1f-2ddd-02d3ac8d8262/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/flowschedule/detailed/"
+    },
+    "id": "dae5bfb1-5d79-6742-9f27-d8e7540b99c2",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/inservice/detailed/"
+    },
+    "name": "EB1 G6",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dae5bfb1-5d79-6742-9f27-d8e7540b99c2/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/flowschedule/detailed/"
+    },
+    "id": "db762d0b-9ac0-23cf-a2c4-4488de976ee8",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/inservice/detailed/"
+    },
+    "name": "EB16 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/db762d0b-9ac0-23cf-a2c4-4488de976ee8/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/flowschedule/detailed/"
+    },
+    "id": "dc28db29-cc26-c0ea-4e6a-499fc42832e2",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/inservice/detailed/"
+    },
+    "name": "EB0 G7",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dc28db29-cc26-c0ea-4e6a-499fc42832e2/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/flowschedule/detailed/"
+    },
+    "id": "dee97843-4cd6-c34b-2972-5ff813a12f2b",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/inservice/detailed/"
+    },
+    "name": "EB8 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/dee97843-4cd6-c34b-2972-5ff813a12f2b/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/flowschedule/detailed/"
+    },
+    "id": "df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/inservice/detailed/"
+    },
+    "name": "EB9 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/df0ad2c9-abb2-f5bd-1fce-ed7ed66126cf/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/flowschedule/detailed/"
+    },
+    "id": "e48cb833-064c-c29b-709e-6bd7bd0aebd5",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/inservice/detailed/"
+    },
+    "name": "EB11 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e48cb833-064c-c29b-709e-6bd7bd0aebd5/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/flowschedule/detailed/"
+    },
+    "id": "e4f2ea09-9bab-91fb-532d-08640c7a8cc0",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/inservice/detailed/"
+    },
+    "name": "EB1 G5",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e4f2ea09-9bab-91fb-532d-08640c7a8cc0/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/flowschedule/detailed/"
+    },
+    "id": "e9bb1deb-63b7-06ff-06e3-55e4b634fb5c",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/inservice/detailed/"
+    },
+    "name": "EB10 G3",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/e9bb1deb-63b7-06ff-06e3-55e4b634fb5c/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/flowschedule/detailed/"
+    },
+    "id": "ec8200bf-7dbd-d355-de42-52d0f8dfe83e",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/inservice/detailed/"
+    },
+    "name": "EB1 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ec8200bf-7dbd-d355-de42-52d0f8dfe83e/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/flowschedule/detailed/"
+    },
+    "id": "ee2b4543-2d7f-9993-c74f-cb2b58167b19",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/inservice/detailed/"
+    },
+    "name": "EB5 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/ee2b4543-2d7f-9993-c74f-cb2b58167b19/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/flowschedule/detailed/"
+    },
+    "id": "f126ad16-7c0d-87f3-d92a-830818a213c3",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/inservice/detailed/"
+    },
+    "name": "EB14 G1",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f126ad16-7c0d-87f3-d92a-830818a213c3/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/flowschedule/detailed/"
+    },
+    "id": "f3078a72-0bd1-5e87-50b2-b014156c0611",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/inservice/detailed/"
+    },
+    "name": "EB0 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f3078a72-0bd1-5e87-50b2-b014156c0611/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/flowschedule/detailed/"
+    },
+    "id": "f58eceb4-25b2-7e52-6864-38763028c5bf",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/inservice/detailed/"
+    },
+    "name": "EB3 G5",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f58eceb4-25b2-7e52-6864-38763028c5bf/status/detailed/"
+    }
+  },
+  {
+    "aaecontrol": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/aaecontrol/"
+    },
+    "aaecontrol/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/aaecontrol/detailed/"
+    },
+    "fault": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/fault/"
+    },
+    "fault/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/fault/detailed/"
+    },
+    "flowschedule": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/flowschedule/"
+    },
+    "flowschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/flowschedule/detailed/"
+    },
+    "id": "f6b0c67e-9ebb-848f-2ed8-2f781d3f2234",
+    "inservice": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/inservice/"
+    },
+    "inservice/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/inservice/detailed/"
+    },
+    "name": "EB20 G2",
+    "onoffschedule": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/onoffschedule/"
+    },
+    "onoffschedule/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/onoffschedule/detailed/"
+    },
+    "rawpower": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/rawpower/"
+    },
+    "rawpower/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/rawpower/detailed/"
+    },
+    "speed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/speed/"
+    },
+    "speed/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/speed/detailed/"
+    },
+    "status": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/status/"
+    },
+    "status/detailed": {
+      "href": "https://aquadvanced.ccaait.local/f6b0c67e-9ebb-848f-2ed8-2f781d3f2234/status/detailed/"
+    }
+  }
+]

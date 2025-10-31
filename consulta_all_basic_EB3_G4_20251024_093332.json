@@ -1,0 +1,17 @@
+{
+  "bomba": {
+    "id": "040b3d5d-a68a-dc52-0623-5d2f6fcd2682",
+    "name": "EB3 G4"
+  },
+  "endpoint": "all_basic",
+  "rango": {
+    "inicio": "2025-10-23T09:33:31.819672",
+    "fin": "2025-10-24T09:33:31.819672"
+  },
+  "datos": {
+    "status": [],
+    "power": [],
+    "speed": []
+  },
+  "timestamp_consulta": "2025-10-24T09:33:32.416110"
+}

@@ -1,0 +1,13 @@
+{
+  "bomba": {
+    "id": "0ab3ed7a-6750-da0b-fec7-b5901162de9d",
+    "name": "EB25 G3"
+  },
+  "endpoint": "onoffschedule",
+  "rango": {
+    "inicio": "2025-10-23T13:22:30.710040",
+    "fin": "2025-10-24T13:22:33.156625"
+  },
+  "datos": [],
+  "timestamp_consulta": "2025-10-24T13:26:16.829026"
+}
