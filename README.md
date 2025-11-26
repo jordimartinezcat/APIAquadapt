@@ -16,8 +16,16 @@ Cliente Python para acceder a la API de AquaAdvanced y obtener datos de bombas y
 
 - **`aquadapt_api_client_oficial_v2.py`** - Cliente principal de la API (versión final)
 - **`config.py`** - Configuración centralizada (API key, endpoints, etc.)
+- **`main.py`** - Interfaz interactiva para consultas (solo JSON)
+- **`main_with_db.py`** - 🆕 Interfaz con integración PostgreSQL/IoT Core
 - **`ejemplos_uso_corregido.py`** - Ejemplos interactivos de uso
 - **`demostracion_final.py`** - Script de demostración completa
+
+### Subproyectos
+
+- **`CAT_Conexions/`** - 🆕 Módulo de conexiones con bases de datos
+  - PostgreSQL Data Lake
+  - Ver [CAT_Conexions README](CAT_Conexions/README.md) para más detalles
 
 ### Archivos de Datos
 
@@ -41,8 +49,10 @@ Cliente Python para acceder a la API de AquaAdvanced y obtener datos de bombas y
 ## 🚀 Uso Rápido
 
 1. **Configuración**: Edita `config.py` con tu API key si es necesario
-2. **Ejecutar ejemplos**: `python ejemplos_uso_corregido.py`
-3. **Demostración completa**: `python demostracion_final.py`
+2. **Consulta simple**: `python main.py`
+3. **Con integración DB**: `python main_with_db.py`
+4. **Ejemplos avanzados**: `python ejemplos_uso_corregido.py`
+5. **Demostración completa**: `python demostracion_final.py`
 
 ## ✅ Características
 
@@ -107,9 +117,40 @@ La API de AquaAdvanced requiere fechas en formato específico: `2025-10-22T00%3A
 - El cliente maneja automáticamente la codificación BOM UTF-8
 - **Formato de fechas implementado correctamente** según especificaciones de la API
 
+## 🔗 Integración con CAT_Conexions
+
+El proyecto incluye integración con **CAT_Conexions** para ampliar capacidades:
+
+### Características adicionales:
+
+- ✅ **Almacenamiento en PostgreSQL Data Lake** - Guarda datos históricos de bombas
+- ✅ **Consultas avanzadas** - Combina datos de múltiples fuentes
+- ✅ **Análisis histórico** - Genera reportes desde base de datos
+
+### Uso de integración:
+
+```python
+# Importar módulo de conexiones
+from CAT_Conexions.src.conexions import pgDataLake
+
+# Conectar a Data Lake
+dl = pgDataLake()
+dl.connect()
+
+# Guardar datos de API en PostgreSQL
+datos_bomba = client.get_bomba_status(bomba_id, start, end)
+dl.insert_data_batch(df_datos, 'aquaadvanced_status')
+```
+
+### Actualizar submodule:
+
+```bash
+git submodule update --remote CAT_Conexions
+```
+
 ## 🎯 Proyecto Completado
 
-Este cliente cumple completamente con el objetivo de consultar la API de AquaAdvanced para obtener datos JSON de bombas y equipos de monitoreo.
+Este cliente cumple completamente con el objetivo de consultar la API de AquaAdvanced para obtener datos JSON de bombas y equipos de monitoreo, con capacidades extendidas de almacenamiento y análisis mediante CAT_Conexions.
 
 ---
 

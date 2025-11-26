@@ -216,7 +216,7 @@ class AquaAdvancedClient:
             Información de la bomba con enlaces href
         """
         try:
-            endpoint = f"{config.ENDPOINTS['individual_pump']}/{bomba_id}/"
+            endpoint = f"physicalPumps/{bomba_id}/"
             response = self._make_request("GET", endpoint)
 
             content = response.content
@@ -467,6 +467,189 @@ class AquaAdvancedClient:
                 f"URL utilizada: {href if 'href' in locals() else 'No disponible'}"
             )
             return []
+
+    def get_bomba_onoffschedule(
+        self,
+        bomba_id: str,
+        start_time: str = None,
+        end_time: str = None,
+        detailed: bool = False,
+    ) -> Any:
+        """
+        Obtener programación on/off de una bomba usando los enlaces href
+
+        Args:
+            bomba_id: ID de la bomba
+            start_time: Tiempo inicio en formato ISO8601
+            end_time: Tiempo fin en formato ISO8601
+            detailed: Si usar endpoint detallado
+
+        Returns:
+            Datos de programación on/off de la bomba
+        """
+        try:
+            # Primero obtener info de la bomba para los enlaces href
+            info = self.get_bomba_info(bomba_id)
+            if not info:
+                return {}
+
+            # Usar el href proporcionado por la API
+            endpoint_key = "onoffschedule/detailed" if detailed else "onoffschedule"
+            if endpoint_key not in info:
+                logger.error(
+                    f"Endpoint {endpoint_key} no disponible para bomba {bomba_id}"
+                )
+                return {}
+
+            href = info[endpoint_key]["href"].replace(
+                "https://aquadvanced.ccaait.local",
+                "https://aquadvanced.ccaait.local/publication/physicalPumps/"
+                + f"{bomba_id}",
+            )
+
+            params = {}
+            if start_time:
+                params["startTime"] = self._format_datetime_for_api(start_time)
+            if end_time:
+                params["endTime"] = self._format_datetime_for_api(end_time)
+
+            # Hacer petición directa con el href
+            response = requests.get(
+                href,
+                params=params,
+                headers=self.headers,
+                verify=self.verify_ssl,
+                timeout=self.timeout,
+            )
+            response.raise_for_status()
+
+            return self._handle_api_response(response)
+        except Exception as e:
+            logger.error(f"Error al obtener onoffschedule de bomba {bomba_id}: {e}")
+            logger.debug(
+                f"URL utilizada: {href if 'href' in locals() else 'No disponible'}"
+            )
+            return []
+
+    def get_valve_info(self, valve_id: str) -> Dict:
+        """
+        Obtener información detallada de una válvula
+
+        Args:
+            valve_id: ID de la válvula
+
+        Returns:
+            Información de la válvula con enlaces href
+        """
+        try:
+            endpoint = f"valves/{valve_id}/"
+            response = self._make_request("GET", endpoint)
+
+            content = response.content
+            if content.startswith(b"\xef\xbb\xbf"):
+                content = content[3:]
+
+            return json.loads(content.decode("utf-8"))
+        except Exception as e:
+            logger.error(f"Error al obtener info de válvula {valve_id}: {e}")
+            return {}
+
+    def get_valve_onoffschedule(
+        self,
+        valve_id: str,
+        start_time: str = None,
+        end_time: str = None,
+        detailed: bool = False,
+    ) -> Any:
+        """
+        Obtener programación on/off de una válvula
+
+        Args:
+            valve_id: ID de la válvula
+            start_time: Tiempo inicio en formato ISO8601
+            end_time: Tiempo fin en formato ISO8601
+            detailed: Si usar endpoint detallado
+
+        Returns:
+            Datos de programación on/off de la válvula
+        """
+        try:
+            # Construir endpoint directamente - requiere / al final antes de parámetros
+            endpoint = f"valves/{valve_id}/onoffschedule/detailed/" if detailed else f"valves/{valve_id}/onoffschedule/"
+            
+            params = {}
+            if start_time:
+                params["startTime"] = self._format_datetime_for_api(start_time)
+            if end_time:
+                params["endTime"] = self._format_datetime_for_api(end_time)
+
+            # Hacer petición usando _make_request
+            response = self._make_request("GET", endpoint, params=params)
+            
+            return self._handle_api_response(response)
+        except Exception as e:
+            logger.error(f"Error al obtener onoffschedule de válvula {valve_id}: {e}")
+            logger.debug(
+                f"Endpoint utilizado: valves/{valve_id}/onoffschedule"
+            )
+            return []
+
+    def get_valves_list(self) -> List[Dict]:
+        """
+        Obtener lista de válvulas desde la API o archivo local
+
+        Returns:
+            Lista de válvulas con sus IDs y nombres
+        """
+        try:
+            # Intentar obtener desde la API
+            response = self._make_request("GET", config.ENDPOINTS["valves"])
+            content = response.content
+
+            # Detectar y manejar BOM UTF-8
+            if content.startswith(b"\xef\xbb\xbf"):
+                content = content[3:]
+
+            data = json.loads(content.decode("utf-8"))
+
+            # Manejar diferentes formatos de respuesta
+            if isinstance(data, dict) and "results" in data:
+                valves = data["results"]
+            elif isinstance(data, list):
+                valves = data
+            else:
+                logger.warning(f"Formato de respuesta inesperado: {type(data)}")
+                valves = []
+
+            logger.info(f"Obtenidas {len(valves)} válvulas desde la API")
+            return valves
+
+        except Exception as e:
+            logger.warning(f"Error al obtener válvulas de la API: {e}")
+
+            # Intentar cargar desde archivo local si existe
+            valve_file = "aquadapt valves Id.json"
+            if os.path.exists(valve_file):
+                logger.info("Intentando cargar válvulas desde archivo local...")
+                try:
+                    with open(valve_file, "r", encoding="utf-8-sig") as f:
+                        data = json.load(f)
+
+                    if isinstance(data, dict) and "results" in data:
+                        valves = data["results"]
+                    elif isinstance(data, list):
+                        valves = data
+                    else:
+                        valves = []
+
+                    logger.info(f"Cargadas {len(valves)} válvulas desde archivo local")
+                    return valves
+                except Exception as e2:
+                    logger.error(f"Error cargando archivo local: {e2}")
+                    return []
+            else:
+                logger.error("No se encontró archivo local de válvulas")
+                return []
 
 
 def load_bmb_list_from_file(file_path: str = "aquadapt BMB Id.json") -> List[Dict]:

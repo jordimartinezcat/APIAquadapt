@@ -1,7 +1,7 @@
 # Configuración para el cliente de API AquaAdvanced
 
 # URL base de la API (según documentación oficial)
-API_BASE_URL = "https://aquadvanced.ccaait.local/publication"
+API_BASE_URL = "https://aquadvanced.ccaait.local/publication/"
 
 # Configuración de autenticación
 # Opción 1: API Key (recomendado según documentación)
@@ -37,29 +37,29 @@ OUTPUT_DIR = "."  # Directorio para guardar resultados
 # Endpoints oficiales según documentación de la API
 ENDPOINTS = {
     # Bombas físicas (Physical Pumps)
-    "pumps_list": "/physicalPumps/",  # Lista todas las bombas
-    "individual_pump": "/physicalPumps",  # Base para información específica de bomba
-    "status": "/physicalPumps/{bmb_id}/status/",
-    "detailed_status": "/physicalPumps/{bmb_id}/status/detailed/",
-    "power": "/physicalPumps/{bmb_id}/rawpower/",
-    "detailed_power": "/physicalPumps/{bmb_id}/rawpower/detailed/",
-    "speed": "/physicalPumps/{bmb_id}/speed/",
-    "detailed_speed": "/physicalPumps/{bmb_id}/speed/detailed/",
-    "faults": "/physicalPumps/{bmb_id}/fault/",
-    "detailed_faults": "/physicalPumps/{bmb_id}/fault/detailed/",
-    "control": "/physicalPumps/{bmb_id}/aaecontrol/",
-    "detailed_control": "/physicalPumps/{bmb_id}/aaecontrol/detailed/",
-    "inservice": "/physicalPumps/{bmb_id}/inservice/",
-    "detailed_inservice": "/physicalPumps/{bmb_id}/inservice/detailed/",
-    "onoff_schedule": "/physicalPumps/{bmb_id}/onoffschedule/",
-    "flow_schedule": "/physicalPumps/{bmb_id}/flowschedule/",
+    "pumps_list": "physicalPumps/",  # Lista todas las bombas
+    "individual_pump": "physicalPumps",  # Base para información específica de bomba
+    "status": "physicalPumps/{bmb_id}/status/",
+    "detailed_status": "physicalPumps/{bmb_id}/status/detailed/",
+    "power": "physicalPumps/{bmb_id}/rawpower/",
+    "detailed_power": "physicalPumps/{bmb_id}/rawpower/detailed/",
+    "speed": "physicalPumps/{bmb_id}/speed/",
+    "detailed_speed": "physicalPumps/{bmb_id}/speed/detailed/",
+    "faults": "physicalPumps/{bmb_id}/fault/",
+    "detailed_faults": "physicalPumps/{bmb_id}/fault/detailed/",
+    "control": "physicalPumps/{bmb_id}/aaecontrol/",
+    "detailed_control": "physicalPumps/{bmb_id}/aaecontrol/detailed/",
+    "inservice": "physicalPumps/{bmb_id}/inservice/",
+    "detailed_inservice": "physicalPumps/{bmb_id}/inservice/detailed/",
+    "onoff_schedule": "physicalPumps/{bmb_id}/onoffschedule/",
+    "flow_schedule": "physicalPumps/{bmb_id}/flowschedule/",
     # Otros equipos disponibles
-    "flowmeters": "/physicalflowmeters/",
-    "pressure_meters": "/physicalpressuremeters/",
-    "tanks": "/physicaltanks/",
-    "valves": "/valves/",
-    "pump_stations": "/pumpStations/",
-    "sources": "/physicalSources/",
+    "flowmeters": "physicalflowmeters/",
+    "pressure_meters": "physicalpressuremeters/",
+    "tanks": "physicaltanks/",
+    "valves": "valves/",
+    "pump_stations": "pumpStations/",
+    "sources": "physicalSources/",
 }
 
 # Configuración de datos a obtener
