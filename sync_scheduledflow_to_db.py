@@ -282,11 +282,17 @@ class OnOffScheduleSync:
             # Usar endpoint correcto según el tipo, con detailed=True
             if device_tipo == "bomba":
                 datos = self.client.get_bomba_onoffschedule(
-                    device_id, start_time.isoformat(), end_time.isoformat(), detailed=True
+                    device_id,
+                    start_time.isoformat(),
+                    end_time.isoformat(),
+                    detailed=True,
                 )
             elif device_tipo == "valvula":
                 datos = self.client.get_valve_onoffschedule(
-                    device_id, start_time.isoformat(), end_time.isoformat(), detailed=True
+                    device_id,
+                    start_time.isoformat(),
+                    end_time.isoformat(),
+                    detailed=True,
                 )
             else:
                 logger.warning(f"      ⚠️ Tipo desconocido: {device_tipo}")
@@ -320,23 +326,33 @@ class OnOffScheduleSync:
             Lista de registros con datos de caudal y updateDate
         """
         try:
-            logger.info(f"   📡 Consultando scheduledflow DETAILED (caudal) de: {device_name}")
+            logger.info(
+                f"   📡 Consultando scheduledflow DETAILED (caudal) de: {device_name}"
+            )
 
             # Usar endpoint correcto según el tipo, con detailed=True
             if device_tipo == "bomba":
                 datos = self.client.get_bomba_flowschedule(
-                    device_id, start_time.isoformat(), end_time.isoformat(), detailed=True
+                    device_id,
+                    start_time.isoformat(),
+                    end_time.isoformat(),
+                    detailed=True,
                 )
             elif device_tipo == "valvula":
                 datos = self.client.get_valve_scheduledflow(
-                    device_id, start_time.isoformat(), end_time.isoformat(), detailed=True
+                    device_id,
+                    start_time.isoformat(),
+                    end_time.isoformat(),
+                    detailed=True,
                 )
             else:
                 logger.warning(f"      ⚠️ Tipo desconocido: {device_tipo}")
                 return []
 
             if isinstance(datos, list):
-                logger.info(f"      ✅ {len(datos)} registros de caudal DETAILED obtenidos")
+                logger.info(
+                    f"      ✅ {len(datos)} registros de caudal DETAILED obtenidos"
+                )
                 return datos
             else:
                 logger.warning(f"      ⚠️ Respuesta inesperada: {type(datos)}")
@@ -409,9 +425,7 @@ class OnOffScheduleSync:
 
         except Exception as e:
             logger.error(f"❌ Error transformando datos de {device_name}: {e}")
-            return pd.DataFrame(
-                columns=["fecha", "id", "valor_on_off"]
-            )
+            return pd.DataFrame(columns=["fecha", "id", "valor_on_off"])
 
     def transformar_datos_caudal(self, datos_raw, record_id, device_name):
         """
@@ -477,9 +491,7 @@ class OnOffScheduleSync:
             logger.error(
                 f"❌ Error transformando datos de caudal de {device_name}: {e}"
             )
-            return pd.DataFrame(
-                columns=["fecha", "id", "valor_caudal"]
-            )
+            return pd.DataFrame(columns=["fecha", "id", "valor_caudal"])
 
     def transformar_datos_detailed(self, datos_raw, api_id, record_id, device_name):
         """
@@ -536,10 +548,14 @@ class OnOffScheduleSync:
             # Extraer updatedTime si está presente
             if "updatedTime" in df.columns:
                 df_transformed["update_date_on_off"] = pd.to_datetime(df["updatedTime"])
-                logger.info(f"      📅 updatedTime encontrado en datos on/off de {device_name}")
+                logger.info(
+                    f"      📅 updatedTime encontrado en datos on/off de {device_name}"
+                )
             else:
                 df_transformed["update_date_on_off"] = None
-                logger.warning(f"      ⚠️ updatedTime NO encontrado en datos on/off de {device_name}")
+                logger.warning(
+                    f"      ⚠️ updatedTime NO encontrado en datos on/off de {device_name}"
+                )
 
             # Filtrar nulls
             df_transformed = df_transformed.dropna(subset=["valor_on_off"])
@@ -610,10 +626,14 @@ class OnOffScheduleSync:
             # Extraer updatedTime si está presente
             if "updatedTime" in df.columns:
                 df_transformed["update_date_caudal"] = pd.to_datetime(df["updatedTime"])
-                logger.info(f"      📅 updatedTime encontrado en datos caudal de {device_name}")
+                logger.info(
+                    f"      📅 updatedTime encontrado en datos caudal de {device_name}"
+                )
             else:
                 df_transformed["update_date_caudal"] = None
-                logger.warning(f"      ⚠️ updatedTime NO encontrado en datos caudal de {device_name}")
+                logger.warning(
+                    f"      ⚠️ updatedTime NO encontrado en datos caudal de {device_name}"
+                )
 
             # Filtrar nulls
             df_transformed = df_transformed.dropna(subset=["valor_caudal"])
@@ -805,11 +825,9 @@ class OnOffScheduleSync:
                 INSERT INTO {SCHEMA_LANDING}.{TABLE_TARGET_FULL} (fecha, id, valor_on_off, valor_caudal, update_date_on_off, update_date_caudal)
                 VALUES 
                 {values_str}
-                ON CONFLICT (fecha, id) DO UPDATE 
+                ON CONFLICT (fecha, id, update_date_on_off, update_date_caudal) DO UPDATE 
                 SET valor_on_off = COALESCE(EXCLUDED.valor_on_off, {SCHEMA_LANDING}.{TABLE_TARGET_FULL}.valor_on_off),
-                    valor_caudal = COALESCE(EXCLUDED.valor_caudal, {SCHEMA_LANDING}.{TABLE_TARGET_FULL}.valor_caudal),
-                    update_date_on_off = COALESCE(EXCLUDED.update_date_on_off, {SCHEMA_LANDING}.{TABLE_TARGET_FULL}.update_date_on_off),
-                    update_date_caudal = COALESCE(EXCLUDED.update_date_caudal, {SCHEMA_LANDING}.{TABLE_TARGET_FULL}.update_date_caudal);
+                    valor_caudal = COALESCE(EXCLUDED.valor_caudal, {SCHEMA_LANDING}.{TABLE_TARGET_FULL}.valor_caudal);
                 """
 
                 self.db.get_data(query)
@@ -906,7 +924,9 @@ class OnOffScheduleSync:
                     df_device = df_onoff
 
                 if len(df_device) > 0:
-                    df_todos_standard = pd.concat([df_todos_standard, df_device], ignore_index=True)
+                    df_todos_standard = pd.concat(
+                        [df_todos_standard, df_device], ignore_index=True
+                    )
 
             # ========== FLUJO 2: DETAILED (con updateDate) ==========
             # Consultar onoffschedule detailed
@@ -931,13 +951,18 @@ class OnOffScheduleSync:
 
                     # Merge on/off y caudal por fecha e id
                     df_device_detailed = pd.merge(
-                        df_onoff_detailed, df_caudal_detailed, on=["fecha", "id"], how="outer"
+                        df_onoff_detailed,
+                        df_caudal_detailed,
+                        on=["fecha", "id"],
+                        how="outer",
                     )
                 else:
                     df_device_detailed = df_onoff_detailed
 
                 if len(df_device_detailed) > 0:
-                    df_todos_detailed = pd.concat([df_todos_detailed, df_device_detailed], ignore_index=True)
+                    df_todos_detailed = pd.concat(
+                        [df_todos_detailed, df_device_detailed], ignore_index=True
+                    )
 
         # Procesar válvulas
         logger.info(f"\n🚰 Procesando VÁLVULAS...")
@@ -986,7 +1011,9 @@ class OnOffScheduleSync:
                     df_device = df_onoff
 
                 if len(df_device) > 0:
-                    df_todos_standard = pd.concat([df_todos_standard, df_device], ignore_index=True)
+                    df_todos_standard = pd.concat(
+                        [df_todos_standard, df_device], ignore_index=True
+                    )
 
             # ========== FLUJO 2: DETAILED (con updateDate) ==========
             # Consultar onoffschedule detailed
@@ -1012,7 +1039,10 @@ class OnOffScheduleSync:
                     # Combinar on/off con caudal usando merge por fecha e id
                     if len(df_caudal_detailed) > 0:
                         df_device_detailed = pd.merge(
-                            df_onoff_detailed, df_caudal_detailed, on=["fecha", "id"], how="outer"
+                            df_onoff_detailed,
+                            df_caudal_detailed,
+                            on=["fecha", "id"],
+                            how="outer",
                         )
                     else:
                         df_device_detailed = df_onoff_detailed
@@ -1020,7 +1050,9 @@ class OnOffScheduleSync:
                     df_device_detailed = df_onoff_detailed
 
                 if len(df_device_detailed) > 0:
-                    df_todos_detailed = pd.concat([df_todos_detailed, df_device_detailed], ignore_index=True)
+                    df_todos_detailed = pd.concat(
+                        [df_todos_detailed, df_device_detailed], ignore_index=True
+                    )
 
         logger.info(f"\n📊 RESUMEN TOTAL:")
         logger.info(f"   Total registros STANDARD: {len(df_todos_standard)}")
@@ -1076,7 +1108,7 @@ class OnOffScheduleSync:
 
             # 4. Insertar en AMBAS tablas
             total_insertados = 0
-            
+
             # 4.1 Insertar datos STANDARD en ite_aqapi_hist
             if len(df_standard) > 0:
                 logger.info(f"\n{'='*70}")
@@ -1088,7 +1120,9 @@ class OnOffScheduleSync:
                     f"✅ Insertados {registros_standard} registros en {TABLE_TARGET}"
                 )
             else:
-                logger.info(f"\nℹ️ No hay datos STANDARD para insertar en {TABLE_TARGET}")
+                logger.info(
+                    f"\nℹ️ No hay datos STANDARD para insertar en {TABLE_TARGET}"
+                )
 
             # 4.2 Insertar datos DETAILED en ite_aqapi_fullhist
             if len(df_detailed) > 0:
@@ -1101,7 +1135,9 @@ class OnOffScheduleSync:
                     f"✅ Insertados {registros_detailed} registros en {TABLE_TARGET_FULL}"
                 )
             else:
-                logger.info(f"\nℹ️ No hay datos DETAILED para insertar en {TABLE_TARGET_FULL}")
+                logger.info(
+                    f"\nℹ️ No hay datos DETAILED para insertar en {TABLE_TARGET_FULL}"
+                )
 
             # 5. Resumen final
             if total_insertados > 0:
@@ -1110,7 +1146,9 @@ class OnOffScheduleSync:
                 logger.info(f"{'='*70}")
                 logger.info(f"   Total registros insertados: {total_insertados}")
                 logger.info(f"   - Tabla {TABLE_TARGET}: {len(df_standard)} registros")
-                logger.info(f"   - Tabla {TABLE_TARGET_FULL}: {len(df_detailed)} registros")
+                logger.info(
+                    f"   - Tabla {TABLE_TARGET_FULL}: {len(df_detailed)} registros"
+                )
                 return True
             else:
                 logger.info("\nℹ️ No hay datos para sincronizar en ninguna tabla")

@@ -15,18 +15,20 @@ Se han realizado las siguientes modificaciones al sistema para:
 ### 1. API Client (`aquadapt_api_client_oficial_v2.py`)
 
 #### ✨ Nuevo método: `get_bomba_flowschedule()`
+
 ```python
 def get_bomba_flowschedule(
     self, bomba_id: str, start_time: str = None, end_time: str = None, detailed: bool = True
 ) -> Any:
     """
     Obtener programación de caudal (flowschedule) de una bomba
-    
+
     Endpoint: physicalPumps/{bomba_id}/flowschedule/detailed/
     """
 ```
 
 #### 🔄 Métodos actualizados a `detailed=True` por defecto:
+
 - `get_bomba_onoffschedule()` → usa `/onoffschedule/detailed/`
 - `get_valve_onoffschedule()` → usa `/onoffschedule/detailed/`
 - `get_valve_scheduledflow()` → usa `/scheduledflow/detailed/`
@@ -38,24 +40,29 @@ def get_bomba_flowschedule(
 ### 2. Script de Sincronización (`sync_scheduledflow_to_db.py`)
 
 #### 🆕 Constante actualizada:
+
 ```python
 TABLE_TARGET = "ite_aqapi_hist_detailed"  # Nueva tabla con updateDates
 ```
 
 #### 🔄 Método `consultar_scheduledflow()` actualizado:
+
 - Ahora acepta parámetro `device_tipo` ('bomba' o 'valvula')
 - Consulta `get_bomba_flowschedule()` para bombas
 - Consulta `get_valve_scheduledflow()` para válvulas
 
 #### 🔄 Método `transformar_datos()` actualizado:
+
 - **Nueva columna**: `update_date_on_off`
 - Extrae `updateDate` del response de la API cuando está disponible
 
 #### 🔄 Método `transformar_datos_caudal()` actualizado:
+
 - **Nueva columna**: `update_date_caudal`
 - Extrae `updateDate` del response de flowschedule/scheduledflow
 
 #### 🔄 Método `insertar_datos()` actualizado:
+
 - Inserta 6 columnas:
   - `fecha`
   - `id`
@@ -66,7 +73,9 @@ TABLE_TARGET = "ite_aqapi_hist_detailed"  # Nueva tabla con updateDates
 - Actualiza ON CONFLICT para incluir update_dates
 
 #### ⚡ Método `procesar_dispositivos()` actualizado:
+
 **Para BOMBAS** (cambio principal):
+
 ```python
 # Consultar onoffschedule
 datos_raw_onoff = self.consultar_onoffschedule(...)
@@ -81,6 +90,7 @@ df_device = pd.merge(df_onoff, df_caudal, on=["fecha", "id"], how="outer")
 ```
 
 **Para VÁLVULAS** (sin cambios en lógica, solo se agregó device_tipo):
+
 - Sigue consultando onoffschedule + scheduledflow
 - Merge de ambos dataframes
 
@@ -103,6 +113,7 @@ CREATE TABLE IF NOT EXISTS ga_landing.ite_aqapi_hist_detailed (
 ```
 
 #### 📊 Índices creados:
+
 ```sql
 CREATE INDEX idx_ite_aqapi_hist_detailed_fecha ON ite_aqapi_hist_detailed(fecha DESC);
 CREATE INDEX idx_ite_aqapi_hist_detailed_id ON ite_aqapi_hist_detailed(id);
@@ -111,9 +122,10 @@ CREATE INDEX idx_ite_aqapi_hist_detailed_update_caudal ON ite_aqapi_hist_detaile
 ```
 
 #### 👁️ Vista actualizada:
+
 ```sql
 CREATE OR REPLACE VIEW ga_landing.v_aqapi_hist_detailed_con_ids AS
-SELECT 
+SELECT
     f.fecha,
     f.id,
     f.valor_on_off,
@@ -124,10 +136,10 @@ SELECT
     m.tag,
     m.tag_cabal,
     m.tipus
-FROM 
+FROM
     ga_landing.ite_aqapi_hist_detailed f
     LEFT JOIN ga_integration.ite_aqapi_tag m ON f.id::bigint = m.id
-ORDER BY 
+ORDER BY
     f.fecha DESC;
 ```
 
@@ -136,18 +148,20 @@ ORDER BY
 ## 📊 Comparación Antes/Después
 
 ### Antes:
-| Dispositivo | Endpoint onoffschedule | Endpoint flowschedule/scheduledflow | updateDate |
-|-------------|------------------------|-------------------------------------|------------|
-| Bomba       | ✅ physicalPumps/{id}/onoffschedule | ❌ No se consultaba | ❌ No |
-| Válvula     | ✅ valves/{id}/onoffschedule | ✅ valves/{id}/scheduledflow | ❌ No |
+
+| Dispositivo | Endpoint onoffschedule              | Endpoint flowschedule/scheduledflow | updateDate |
+| ----------- | ----------------------------------- | ----------------------------------- | ---------- |
+| Bomba       | ✅ physicalPumps/{id}/onoffschedule | ❌ No se consultaba                 | ❌ No      |
+| Válvula     | ✅ valves/{id}/onoffschedule        | ✅ valves/{id}/scheduledflow        | ❌ No      |
 
 **Tabla**: `ite_aqapi_hist` con 4 columnas (fecha, id, valor_on_off, valor_caudal)
 
 ### Después:
-| Dispositivo | Endpoint onoffschedule | Endpoint flowschedule/scheduledflow | updateDate |
-|-------------|------------------------|-------------------------------------|------------|
-| Bomba       | ✅ physicalPumps/{id}/onoffschedule/**detailed/** | ✅ physicalPumps/{id}/flowschedule/**detailed/** | ✅ Sí |
-| Válvula     | ✅ valves/{id}/onoffschedule/**detailed/** | ✅ valves/{id}/scheduledflow/**detailed/** | ✅ Sí |
+
+| Dispositivo | Endpoint onoffschedule                            | Endpoint flowschedule/scheduledflow              | updateDate |
+| ----------- | ------------------------------------------------- | ------------------------------------------------ | ---------- |
+| Bomba       | ✅ physicalPumps/{id}/onoffschedule/**detailed/** | ✅ physicalPumps/{id}/flowschedule/**detailed/** | ✅ Sí      |
+| Válvula     | ✅ valves/{id}/onoffschedule/**detailed/**        | ✅ valves/{id}/scheduledflow/**detailed/**       | ✅ Sí      |
 
 **Tabla**: `ite_aqapi_hist_detailed` con **6 columnas** (fecha, id, valor_on_off, valor_caudal, update_date_on_off, update_date_caudal)
 
@@ -156,17 +170,20 @@ ORDER BY
 ## 🚀 Pasos para Implementar
 
 ### 1. Crear la nueva tabla en PostgreSQL:
+
 ```bash
 psql -h 40.85.79.213 -p 5432 -U ga_nifisagecad -d goaigua_data -f setup_database_tables_detailed.sql
 ```
 
 ### 2. Otorgar permisos:
+
 ```sql
 GRANT SELECT ON ga_integration.ite_aqapi_tag TO ga_nifisagecad;
 GRANT SELECT, INSERT, UPDATE ON ga_landing.ite_aqapi_hist_detailed TO ga_nifisagecad;
 ```
 
 ### 3. Ejecutar script actualizado:
+
 ```bash
 python sync_scheduledflow_to_db.py
 ```
@@ -182,6 +199,7 @@ Después de la ejecución:
 - **Total**: ~16,245 registros
 
 ### Datos adicionales capturados:
+
 - ✅ `update_date_on_off`: Fecha de última modificación del estado on/off
 - ✅ `update_date_caudal`: Fecha de última modificación del caudal programado
 
@@ -190,8 +208,9 @@ Después de la ejecución:
 ## 🔍 Consultas Útiles
 
 ### Ver registros con update_dates:
+
 ```sql
-SELECT 
+SELECT
     fecha, id, valor_on_off, valor_caudal,
     update_date_on_off, update_date_caudal,
     (update_date_on_off - fecha) as delay_on_off,
@@ -202,17 +221,19 @@ LIMIT 100;
 ```
 
 ### Ver actualizaciones recientes:
+
 ```sql
-SELECT * 
-FROM ga_landing.v_aqapi_hist_detailed_con_ids 
+SELECT *
+FROM ga_landing.v_aqapi_hist_detailed_con_ids
 WHERE update_date_on_off >= NOW() - INTERVAL '1 hour'
    OR update_date_caudal >= NOW() - INTERVAL '1 hour'
 ORDER BY GREATEST(update_date_on_off, update_date_caudal) DESC;
 ```
 
 ### Estadísticas de update_dates:
+
 ```sql
-SELECT 
+SELECT
     COUNT(*) FILTER (WHERE update_date_on_off IS NOT NULL) as con_update_onoff,
     COUNT(*) FILTER (WHERE update_date_caudal IS NOT NULL) as con_update_caudal,
     COUNT(*) FILTER (WHERE update_date_on_off IS NOT NULL AND update_date_caudal IS NOT NULL) as con_ambos_updates

@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS ga_landing.ite_aqapi_fullhist (
     valor_caudal FLOAT8 NULL,
     update_date_on_off TIMESTAMP NULL,
     update_date_caudal TIMESTAMP NULL,
-    PRIMARY KEY (fecha, id)
+    PRIMARY KEY (fecha, id, update_date_on_off, update_date_caudal)
 );
 
 -- Índices para optimizar consultas
