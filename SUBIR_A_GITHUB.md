@@ -3,6 +3,7 @@
 ## Método 1: Usando GitHub CLI (Recomendado - Más Fácil)
 
 ### Paso 1: Instalar GitHub CLI
+
 ```powershell
 # Instalar GitHub CLI usando winget
 winget install --id GitHub.cli
@@ -11,12 +12,14 @@ winget install --id GitHub.cli
 ```
 
 ### Paso 2: Autenticarse en GitHub
+
 ```powershell
 gh auth login
 # Seguir las instrucciones en pantalla
 ```
 
 ### Paso 3: Crear y subir repositorio automáticamente
+
 ```powershell
 # Crear repositorio público
 gh repo create APIAquadapt --public --source=. --remote=origin --push
@@ -28,6 +31,7 @@ gh repo create APIAquadapt --private --source=. --remote=origin --push
 ## Método 2: Manual (Si no quieres instalar GitHub CLI)
 
 ### Paso 1: Crear repositorio en GitHub.com
+
 1. Ve a https://github.com
 2. Clic en "New repository" (botón verde)
 3. Nombre: `APIAquadapt`
@@ -36,12 +40,15 @@ gh repo create APIAquadapt --private --source=. --remote=origin --push
 6. Clic en "Create repository"
 
 ### Paso 2: Copiar la URL del repositorio
+
 GitHub te mostrará una URL como:
+
 ```
 https://github.com/TU-USUARIO/APIAquadapt.git
 ```
 
 ### Paso 3: Ejecutar estos comandos (reemplaza TU-USUARIO)
+
 ```powershell
 # Agregar remote origin
 git remote add origin https://github.com/TU-USUARIO/APIAquadapt.git
@@ -65,6 +72,7 @@ git push -u origin main
 **Dime tu nombre de usuario de GitHub** y yo preparé los comandos exactos que necesitas ejecutar.
 
 Por ejemplo, si tu usuario es `jmartinez-cat`, el comando sería:
+
 ```powershell
 git remote add origin https://github.com/jmartinez-cat/APIAquadapt.git
 ```
@@ -87,6 +95,7 @@ git push -u origin main
 ## ✅ Resultado Final
 
 Después de ejecutar estos comandos tendrás:
+
 - Repositorio `APIAquadapt` en tu GitHub
 - Todos los 30 archivos subidos
 - Historial de commits preservado

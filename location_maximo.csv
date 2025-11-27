@@ -1,0 +1,891 @@
+﻿location;name
+ADMIN;
+ADPRO;Administració Producció
+ALDEA;Aldea
+AROCA;Agustín Roca
+AT01A;Tram entre CRT04-ATT01
+AT01B;Tram entre ATT01-ATT02
+AT01C;Tram entre ATT02-ATT03
+AT01D;Tram entre ATT03-ATT04
+AT01E;Tram entre ATT04-PVB04
+AT02A;Tram entre ATT03-SCT03
+AT03A;Tram entre ATT01-ATT31
+AT03B;Tram entre ATT31-ATD01
+AT03C;Tram entre ATT31-ATD02
+AT03D;Tram entre ATD02-ATD03
+AT04A;Tram entre ATT04-ATD04
+AT05A;Tram entre ATT02-ATT51
+AT05B;Tram entre ATT51-ATT52
+AT05C;Tram entre ATT51-ATD05
+AT05D;Tram entre ATT52-ATD06
+AT05E;Tram entre ATT52-ATD07
+AT05F;Tram entre ATT52-ATD03
+ATC01;Consum Carburos Metálicos, RQ
+ATC02;Consum DOW, R.Pet
+ATC03;Consum Messer Iber. el Morell,RQ
+ATD01;Dipòsit Repsol Química 2
+ATD02;Dipòsit Repsol Química 1
+ATD03;Dipòsit Carburos Messer
+ATD04;Dipòsit Immo-Habitat
+ATD05;Dipòsit PP10 El Morell
+ATD06;Dipòsit Ecoplanta El Morell
+ATD07;Dipòsit Carburos Metálicos
+ATT01;Terciària Ramal Repsol Química
+ATT02;Terciària Carburos Metálicos
+ATT03;Terciària derivació anell tancament
+ATT04;Terciària Immo-Habitat
+ATT31;Subterciària Repsol Química 2
+ATT51;Terciària PP10 El Morell
+ATT52;Terciària Ecoplanta
+BCOLL;Begonya Coll
+BP01A;Tram entre CCT31-BPB19
+BP01B;Tram entre BPB19-BPT01
+BP01C;Tram entre BPT01-BPD01
+BP02A;Tram entre BPT01-BPD02
+BP03A;Tram entre BPB25-BPT02
+BP03B;Tram entre BPT02-BPT03
+BP03C;Tram entre BPT03-BPT05
+BP03D;Tram entre BPT05-BPT06
+BP04A;Tram entre PBT05-BPT07
+BP04B;Tram entre BPT07-BPT08
+BP05A;Tram entre BPT02-BPD03 (futur)
+BP06A;Tram entre BPT03-BPD04
+BP07A;Tram entre BPT06-BPD05
+BP08A;Tram entre BPT06-BPD06
+BP09A;Tram entre BPT07-BPD09
+BP10A;Tram entre BPT08-BPD10
+BP11A;Tram entre BPT08-BPD11
+BP12A;Tram entre BPT09-BPD14
+BPB19;Estació Bombament Masia La Font EB-19
+BPB25;Estació Bombament Baronia del Mar EB-25
+BPC01;Consum La Papiola
+BPD01;Dipòsits Reguladors Baronia del Mar
+BPD02;Dipòsit Pla de Cranc
+BPD03;"Dipòsit S. Oliva ""Molí d'en Serra"""
+BPD04;"Dipòsit Albinyana ""La Papiola"""
+BPD05;Dipòsit S. Oliva-Idiada
+BPD06;Dipòsit S. Oliva P.I.
+BPD09;Dipòsit Regulador S. Jaume dels Domenys
+BPD10;Dipòsit Llorenç del Penedès P.I.
+BPD11;Dipòsit Banyeres nucli
+BPD12;Dipòsit Municipal S. Jaume dels Domenys
+BPD13;Dipòsit Municipal Baronia del Mar
+BPD14;Dipòsit El Vendrell (La Papiola)
+BPS01;Secc. 28277 Baix Penedès 1a Fase
+BPS02;Secc. 28274 Baix Penedès 1a Fase
+BPS03;Secc. 28282 Pas FFCC Baix Penedès 2a Fase
+BPS04;Secc. 28544 Pas FFCC Baix Penedès 2a Fase
+BPS05;Secc. 28283 Pas FFCC AVE Baix Penedès 2a Fase
+BPS06;Secc. 28543 Pas FFCC AVE Baix Penedès 2a Fase
+BPS07;Secc. 28336 Pas AP7 Baix Penedès 3a Fase
+BPT01;Terciària Baronia del Mar/Pla del Cranc
+BPT02;"Terciària S. Oliva ""Molí d'en Serra"""
+BPT03;"Terciària Albinyana ""La Papiola"""
+BPT05;Terciària a III Fase Baix Penedès
+BPT06;Terciària S. Oliva
+BPT07;Terciària S. Jaume dels Domenys
+BPT08;Terciària Llorenç del Penedès P.I.
+BPT09;Terciària El Vendrell (La Papiola)
+CAT01;Producció Ebre
+CAT02;Distribució
+CAT03;Nau de Control Central
+CAT99;Ubicacions obsoletes
+CB01A;Tram entre VCD01-CBT01
+CB01B;Tram entre CBT01-CBT02
+CB01C;Tram entre CBT02-CBT03
+CB01D;Tram entre CBT03-CBD01
+CB01E;Tram entre CBT03-CBT04
+CB01F;Tram entre CBT04-CBD06
+CB02A;Tram entre CBT01-CBD02
+CB03A;Tram entre CBT03-CBT31
+CB03B;Tram entre CBT31-CBD03
+CB03C;Tram entre CBT31-CBD04
+CB04A;Tram entre CBT04-CBD05
+CB05A;Tram entre CBT32-CBD09
+CBB24;Estació Bombament Sarral EB-24
+CBC01;Consum Montblanc Hipica
+CBC02;Consum Conesa cubes, Montblanc
+CBC03;Consum Savalla del Comtat cubes, Montblanc
+CBC05;Consum L'Espluga, Montblanc
+CBC06;Consum L'Espluga,Cabra
+CBC07;Consum Sarral cubes, Montblanc
+CBC08;Consum Sarral poble
+CBD01;Dipòsit Montblanc
+CBD02;Dipòsit FRIDA (Sarral)
+CBD03;Dipòsit de Blancafort
+CBD04;Dipòsit de Solivella
+CBD05;Dipòsit Espluga de Francolí
+CBD06;Dipòsit Montblanc nou
+CBD07;Dipòsit municipal Sarral
+CBD08;Dipòsit regulador de Forès
+CBD09;Dipòsit Pira
+CBT01;Terciària Sarral
+CBT02;Terciària Camping Ducat de Montblanc
+CBT03;Terciària Ramal Blancafort-Solivella
+CBT04;Terciària Espluga de Francolí
+CBT05;Terciària La Guàrdia dels Prats
+CBT21;Subterciària FRIDA-Sarral
+CBT22;Subterciària Sarral-Forès
+CBT31;Subterciària Blancafort
+CBT32;Subterciària Pira
+CC01A;Tram entre CCB05-CCT01
+CC01B;Tram entre CCT01-CCT02
+CC01C;Tram entre CCT02-CCT03
+CC01D;Tram entre CCT03-CCT04
+CC01E;Tram entre CCT04-CCT05
+CC01F;Tram entre CCT05-CCT06
+CC01G;Tram entre CCT06-CCT07
+CC01H;Tram entre CCT07-CCT08
+CC02A;Tram entre CCT01-CCT21
+CC02B;Tram entre CCT21-CCD01
+CC02C;Tram entre CCT21-CCD02
+CC03A;Tram entre CCT02-CCT31
+CC03B;Tram entre CCT31-CCD03
+CC04A;Tram entre CCT03-CCD04
+CC05A;Tram entre CCT04-CCD05
+CC06A;Tram entre CCT05-CCD06
+CC06B;Tram entre CCD06-CCB15
+CC06C;Tram entre CCB15-CCD07
+CC07A;Tram entre CCT07-CCD08
+CC08A;Tram entre CCT08-CCD09
+CC09A;Tram entre CCT09-BPB19
+CC10A;Tram entre CCT10-CCD10
+CC11A;Tram entre CCS02-CCS04
+CC11B;Tram entre CCS04-CC01E
+CC12A;Tram entre CCT11-CCD11
+CCB05;Estació Bombament Vendrell EB-5
+CCB15;Estació Bombament La Granja EB-15
+CCD01;Dipòsit El Vendrell Romaní 2
+CCD02;Dipòsit El Vendrell Romaní 1
+CCD03;Dipòsit Masia La Font
+CCD04;Dipòsit Bellamar
+CCD05;Dipòsit Mas Mel
+CCD06;Dipòsit Calafell 2
+CCD07;Dipòsit La Granja
+CCD08;Dipòsit Cunit 3
+CCD09;Dipòsit Cunit 2
+CCD10;Dipòsit Antiariet Romaní
+CCD11;Dipòsit regulador Cunit-Nord
+CCS01;Secc. 3182 carretera Sant Salvador
+CCS02;Secc. 27521 inici Desdoblament Calafell-Cunit
+CCS03;Secc. 9909 anterior Bellamar Calafell Slide
+CCS04;Secc. 27522 fi Desdoblament Calafell-Cunit
+CCS31;Secc. 26929 ramal Masia la Font
+CCT01;Terciària Ramal Romaní i arqueta antiariet
+CCT02;Terciària Masia La Font
+CCT03;Terciària Bellamar
+CCT04;Terciària Mas Mel
+CCT05;Terciària Calafell 2
+CCT06;Terciària EB-Segur de Calafell
+CCT07;Terciària Cunit 3
+CCT08;Terciària Cunit 2
+CCT09;Terciària EB-19
+CCT10;Terciària Antiariet Romaní
+CCT11;Terciària Cunit-Nord
+CCT21;Subterciària Romaní 2
+CCT31;Subterciària Ramal Baix Penedès
+CL01A;Tram entre CCT06-CLB06
+CL01B;Tram entre CLB06-CLT01
+CL01C;Tram entre CLT01-CLT02
+CL01D;Tram entre CLT02-CLB23
+CL01E;Tram entre CLB23-CLT03
+CL02A;Tram entre CLB17-CLD01
+CL03A;Tram entre CLT01-CLD02
+CL04A;Tram entre CLT02-CLD03
+CL05A;Tram entre CLT03-CLD04
+CL06A;Tram entre CLT03-CLD05
+CL07A;Tram entre CLT04-CLD07
+CLB06;Estació Bombament Segur de Calafell EB-6
+CLB17;Estació Bombament Segur de Calafell EB-17
+CLB23;Estació Bombament Les Brises de Calafell EB-23
+CLD01;Dipòsit Calafell 5
+CLD02;Dipòsit Cunit 1
+CLD03;Dipòsit Calafell Les Brises
+CLD04;Dipòsit Calafell Parc
+CLD05;Dipòsit de l´Arboç
+CLD06;Dipòsit Calafell 3
+CLD07;Dipòsit Regulador Calafell - Les Brises
+CLT01;Terciària Cunit 1 i Calafell Les Brises
+CLT02;Terciària dipòsit Calafell Les Brises
+CLT03;Terciària dipòsit Calafell Parc
+CLT04;Terciària Ramal Dip. Reg. Calafell - Les Brises
+CP000;(OBSOLET) 942 Ebro en Flix (ACA)_CANVI A RE030
+CP010;Marge Dret
+CP020;Marge Esquerre
+CP030;Obra de presa EB-0
+CP040;Instal·lacions auxiliars
+CPB00;Estació Bombament Campredó EB-0
+CR01A;Tram entre SCT01-CRT01
+CR01B;Tram entre CRT01-CRT02
+CR01C;Tram entre CRT02-CRT03
+CR01D;Tram entre CRT03-CRT04
+CR01E;(OBSOLET) Tram entre CRD03-CRT04
+CR02A;Tram entre CRT01-CRD01
+CR03A;Tram entre CRT02-CRD02
+CR04A;Tram entre CRT04-CRD03
+CRD01;Dipòsit PIC
+CRD02;Dipòsit Constantí
+CRD03;Dipòsit Repsol Petroleo
+CRS01;Secc. 4713 Foster Wheeler
+CRT01;Terciària PIC
+CRT02;Terciària Constantí
+CRT03;Terciària EB-13
+CRT04;Terciària Repsol Petroli/Anell Tancament
+CRUIZ;Carlos Ruiz
+CUNIT;Cunit
+EM01A;Tram PAT12 (EB-1) - EMT01 (Deltatres)
+EM01B;Tram EMT01 (Deltatres) - EMT02 (Mercaderies)
+EM01C;Tram entre EMT02-EMT03
+EM01D;Tram entre EMT03-EMT04
+EM01E;Tram entre EMT04-EMT05
+EM01F;Tram entre EMT05-EMT06
+EM01G;Tram entre EMT06-EMT07
+EM02A;Tram entre EMT01-EMD01
+EM03A;Tram entre EMT02-EMD02
+EM04A;Tram entre EMT03-EMD03
+EM05A;Tram entre EMT04-EMD04
+EM06A;Tram entre EMT06-EMD05
+EM07A;(OBSOLET) Tram entre EMT07-EMD06
+EM08A;Tram entre EMT07-EMD07
+EMB29;Estació Bombament Baix Ebre EB-29
+EMD01;Dipòsit Deltatres
+EMD02;Dipòsit Polígon Mercaderies
+EMD03;Dipòsit Sant Jaume d'Enveja
+EMD04;Dipòsit Amposta
+EMD05;Dipòsit La Ràpita 1
+EMD06;(OBSOLET) Dipòsit La Ràpita 2
+EMD07;Dipòsit Alcanar Platja
+EMS01;Secc. 10139 jardí ETAP
+EMS02;Secc. 10140 futura Camarles
+EMS03;Secc. 5133 riu Ebre
+EMT01;Terciària Deltatres
+EMT02;Terciària Polígon Mercaderies
+EMT03;Terciària  Sant Jaume d´Enveja
+EMT04;Terciària d'Amposta
+EMT05;Terciària Ramal Rocafosca
+EMT06;Terciària La Ràpita 1
+EMT07;Terciària La Ràpita 2-Alcanar
+EMT08;Terciària Poble Nou
+EMT31;Subterciària P.I. Catalunya Sud (futur)
+ET010;Dipòsit d'aigua crua
+ET011;DAC 1
+ET012;DAC 2
+ET013;Tamisat i dipòsit DAC
+ET014;Caseta claus DAC
+ET015;Caseta de connexió DAC
+ET016;Caseta d'interconnexió DAC
+ET020;Obra d'arribada
+ET030;Mescla
+ET040;Floculació-Decantació
+ET041;Recirculació de fangs Fase 1
+ET042;Recirculació de fangs Fase 2
+ET050;Filtració amb sorra
+ET051;Filtres de sorra
+ET052;Rentat aire
+ET053;Aigua de rentat
+ET054;Canal de servei
+ET055;Dipòsit de servei
+ET056;Conducció aigua filtrada
+ET060;Aigua tractada
+ET061;Dipòsit Aigua tractada 1
+ET062;Dipòsit Aigua tractada 2
+ET063;Ampliació Dipòsit Aigua Neta (ADAN)
+ET070;Tractament de fangs
+ET071;Espessidors
+ET072;Dipòsits de Fangs
+ET073;Xarxa Fangs
+ET074;Erols
+ET075;Deshidratació de Fangs
+ET076;Floculant Fangs
+ET077;Caseta de bombament Fangs
+ET078;Retorn fangs a riu
+ET080;Recuperació d'aigües
+ET081;Dipòsit Recuperació Aigües
+ET082;Sistema Tractament Aigües Recuperades (TAR)
+ET090;Reactius 1
+ET091;(OBSOLET) Clor
+ET092;Coagulant
+ET093;Floculant Reactius 1
+ET094;(OBSOLET) Carbó Actiu Pols
+ET100;(OBSOLET) Reactius 2
+ET101;(OBSOLET) Permanganat
+ET102;OBSOELT_Diòxid de Clor
+ET110;Filtres de carbó actiu granulat
+ET111;Bombament FCAG
+ET112;Filtres de carbó actiu granulat
+ET113;Rentat aire FCAG
+ET114;Bombament aigua de rentat FCAG
+ET115;Recuperació aigua de rentat FCAG
+ET116;Sistemes de transvassament FCAG
+ET117;Dipòsit canal de servei
+ET120;Diòxid de carboni
+ET130;Ozó
+ET131;PreOzonització
+ET132;PostOzonització
+ET133;Oxigen líquid
+ET140;Dosificador clor
+ET141;Hipoclorit 15%
+ET142;Electrocloració ETAP
+ET143;Hipoclorit 15% Emergència
+ET150;Desinfecció UVA
+ET200;Serveis auxiliars
+ET201;Xarxa aire a pressió
+ET202;Bombes d'exhaurir
+ET203;Grup electrogen
+ET204;UPS
+ET210;Instal·lacions comunes
+ET220;Instal·lacions AT ETAP
+ET221;Instal·lació SSEE ETAP
+ET222;Instal·lació 6 kV FCAG
+ET223;Instal·lació 6 kV Tractaments
+FPOLO;Francesc Polo
+FSANZ;Félix Sanz
+IA010;EDAR
+IC010;Repetidor Mas Carrasca
+IC020;Repetidor la Mussara
+IC030;Repetidor Calafell Les Brises
+IC040;Repetidor Antenes Perelló
+IC050;Repetidor Mont Caro
+IC060;Repetidor Coll Redó
+IC070;Repetidor Montblanc
+IC080;Repetidor La Granja
+IC090;Repetidor Torre EB-3
+IC100;Repetidor Xemeneia EB-1
+IC110;Repetidor Sala Control ETAP
+IC120;Repetidor Xemeneia EB-2
+IC130;Repetidor Xemeneia EB-0
+IC140;Repetidor La Selva del Camp
+IC300;Comunicacions radio digital
+IC400;Comunicacions radio IP
+IC500;Comunicacions cable
+IC501;Comunicacions cable Línia Sud 1
+IC502;Comunicacions cable Línia Sud 2
+IC503;Comunicacions cable Línia Centre
+IC504;Comunicacions cable Línia Nord
+IC600;Comunicacions WIFI
+IC601;Comunicacions WIFI Central
+IC602;Comunicacions WIFI ETAP
+LAURA;Laura Gutierrez
+LB010;Laboratori fisico-químic
+LB020;Tècniques especials
+LB030;Microbiologia
+LB040;Aparells de camp
+LB050;Auxiliar
+LB060;Sala mesuradors
+LB100;Laboratori de Qualitat de l’Aigua LQAIGUA
+LT01A;Tram entre LTB20-LTT01
+LT01B;Tram entre LTT01-LTT02
+LT01C;Tram entre LTT02-LTT03
+LT01D;Tram entre LTT03-LTT04
+LT01E;Tram entre LTT04-LTT05
+LT01F;Tram entre LTT05-LTT06
+LT01G;Tram entre LTT06-LTT07
+LT01H;Tram entre LTT07-LTT08
+LT01I;Tram entre LTT08-LTT09
+LT01J;Tram entre LTT09-LTT10
+LT01K;Tram entre LTT10-LTT11
+LT01L;Tram entre LTT11-CCB05
+LT02A;Tram entre LTT01-LTD01
+LT03A;Tram entre LTT03-LTD02
+LT04A;Tram entre LTT06-LTD03
+LT05A;Tram entre LTT08-LTD04
+LT06A;Tram entre LTT09-LTD05
+LT07A;Tram entre LTT11-LTD06
+LT08A;Tram entre LTT11-LTT81
+LT08B;Tram entre LTT81-LTD07
+LT08C;Tram entre LTT81-LTD08
+LT09A;Tram entre CCB05-LTD09
+LT10A;Tram entre LTT08-LTD10
+LT11A;Tram LTT12-LTD11
+LT12A;(OBSOLET) Tram LTT01-LTD12
+LT13A;Tram LTT10-LTD15
+LT14A;Tram entre LTT61-LTD13
+LTB20;Estació Bombament St. Pere i St Pau EB-20
+LTB31;Estació Bombament Roda de Berà Nord EB-31
+LTB32;Estació Bombament Bonastre EB-32
+LTC01;Consum Catllar Mas Enric
+LTC02;Consum Pobla de Montornès
+LTD01;Dipòsit Boscos
+LTD02;Dipòsit La Mora
+LTD03;Dipòsits  d'Altafulla Nums 1 i 2
+LTD04;Dipòsit Torredembarra (El Pujol)
+LTD05;Dipòsit Creixell
+LTD06;Dipòsit El Francaset
+LTD07;Dipòsit Roda de Barà-Costa Daurada
+LTD08;Dipòsit Roda de Barà-Sant Gaietà
+LTD09;Dìpòsit Els Masos
+LTD10;Dipòsit La Pobla de Montornès
+LTD11;Dipòsit Coto del Rey
+LTD12;(OBSOLET) Dipòsit Centre Penitenciari Mas Enric
+LTD13;Dipòsit Pou Torredembarra (S. Antoni)
+LTD14;Dipòsit Roda de Berà Nord
+LTD15;Dipòsit Bonastre
+LTS01;Secc. 13711 Escorpí
+LTS02;Secc. 3799 gossos
+LTS03;Secc. 10193 anterior EB-5
+LTS41;Secc. 13846 ramal Altafulla
+LTT01;Terciària Boscos
+LTT02;Terciària El Mèdol
+LTT03;Terciària La Mora
+LTT04;Terciària de Ferran
+LTT05;Terciària Pou Torredembarra (Sant Antoni)
+LTT06;Terciària Altafulla
+LTT07;Terciària Vertosa (Torredembarra)
+LTT08;Terciària Torredembarra
+LTT09;Terciària Creixell
+LTT10;Terciària Roda de Barà Nord
+LTT11;Terciària Ramal Roda de Barà
+LTT12;Terciària Coto del Rey
+LTT61;Subterciària Pou Torredembarra (Sant Antoni)
+LTT81;Subterciària Sant Gaietà-Costa Daurada
+MARIA;Maria Solà
+MOC13;Operari contracte MOCCAT13
+MSOLA;Maria Solà
+MV01A;Tram entre CRT03-MVB13
+MV01B;Tram entre MVB13-MVT01
+MV01C;Tram entre MVT01-MVT02
+MV01D;Tram entre MVT02-MVD01
+MV02A;Tram entre MVT01-MVD02
+MV03A;Tram entre MVT02-MVD03
+MV04A;Tram entre MVT03-MVD04
+MV05A;Tram entre MVT04-MVD05
+MVB13;Estació Bombament La Pobla de Mafumet EB-13
+MVD01;Dipòsit Regulador Vilallonga del Camp
+MVD02;Dipòsits La Pobla de Mafumet Nums 1 i 2
+MVD03;Dipòsit El Morell
+MVD04;Dipòsit La Pobla de Mafumet nou
+MVD05;Dipòsit El Rourell
+MVD06;Dipòsit Vilallonga del Camp
+MVS01;Secc. 5244 entrada a Vilallonga
+MVT01;Terciària La Pobla de Mafumet (antiga)
+MVT02;Terciària El Morell-Vilallonga del Camp
+MVT03;Terciària La Pobla de Mafumet nova
+MVT04;Terciària el Rourell
+NC010;Planta Baixa
+NC020;Planta -1
+NC030;Backup L.L.C.C.
+NC031;Sala Servidors Central
+NC032;Sala Operadors
+NC040;Edificació
+NC050;Planta +1
+NC060;Instal·lacions
+NM010;Magatzem Gran
+NM020;Arxiu
+NM030;Edificació
+NM040;Magatzem neteja
+NT010;Laboratori Elèctric
+NT020;Laboratori Electrònic
+NT030;Taller Mecànic
+NT040;Despatxos
+NT050;Magatzem Petit
+NT060;Edificació
+NU010;Sala UPS
+NU020;Sala Grup Electrogen
+NU030;Edificació
+NU040;Magatzem distribució
+OFTEC;Usuari Oficina Tècnica
+OPERS;
+PA01A;Tram entre PAB01-PAT01
+PA01B;Tram entre PAT01-PAT02
+PA01C;Tram entre PAT02-PAT03
+PA01D;Tram entre PAT03-PAT04
+PA01E;Tram entre PAT04-PAT05
+PA01F;Tram entre PAT05-PAT06
+PA01G;Tram entre PAT06-PAT07
+PA01H;Tram entre PAT07-PAT08
+PA01I;Tram entre PAT08-PAT09
+PA01J;Tram entre PAT09-PAT10 - Inclòs TUNEL
+PA01K;Tram entre PAT10-PBT01
+PA02A;Tram entre PAT01-PAD01
+PA03A;Tram entre PAT02-PAB16
+PA03B;Tram entre PAB16-PAD02
+PA04A;Tram entre PAT04-PAD03
+PA05A;Tram entre PAT05-PAD04
+PA06A;Tram entre PAT06-PAD05
+PA07A;Tram entre PAT07-PAD06
+PA08A;Tram entre PAT08-PAB07
+PA08B;Tram entre PAB07-PAD07
+PA09A;Tram entre PAT10-PBB02
+PA10A;Tram entre PAT11-PAD08
+PA10B;Tram entre PAD08-PBB02
+PAB01;Estació Bombament Ampolla EB-1
+PAB07;Estació de Bombament Vandellòs 2 EB-7
+PAB16;Estació de Bombament Perelló EB-16
+PAD01;Dipòsit l'Ampolla
+PAD02;Dipòsit El Perelló
+PAD03;Dipòsit de l'Ametlla
+PAD04;Dipòsit Tres Cales
+PAD05;Dipòsit Calafató
+PAD06;Dipòsit l'Almadrava
+PAD07;Dipòsit Vandellòs 2
+PAD08;Dipòsit Regulador Coll de Balaguer
+PAS01;Secc. 850 antenes
+PAS02;Secc. 851 Ametlla reparació tub
+PAS03;Secc. 1663 fi tram I-I Ametlla
+PAS04;Secc. 1637 Plana del Vent
+PAS05;Secc. 27513 boca nord final bypass Coll Balaguer
+PAS06;Secc. 14136 Seccionament EB-2
+PAT01;Terciària l'Ampolla
+PAT02;Terciària El Perelló
+PAT03;Terciària Medisa
+PAT04;Terciària l'Ametlla
+PAT05;Terciària Tres Cales
+PAT06;Terciària Calafató
+PAT07;Terciària l'Almadrava
+PAT08;Terciària Vandellòs 2
+PAT09;Terciària Vandellòs 1
+PAT10;Terciària Ramal arribada EB-2
+PAT11;Terciària Canonada reforç Coll de Balaguer
+PAT12;Terciària Baix Ebre-Montsià
+PB01A;Tram entre PBB02-PBT01
+PB01B;Tram entre PBT01-PBT02
+PB01C;Tram entre PBT02-PBT03
+PB01D;Tram entre PBT03-PBT04
+PB01E;Tram entre PBT04-PBT05
+PB01F;Tram entre PBT05-PBT06
+PB01G;Tram entre PBT06-PBT07
+PB01H;Tram entre PBT07-PBT08
+PB01I;Tram entre PBT08-PBT09
+PB01J;Tram entre PBT09-PBT10
+PB01K;Tram entre PBT10-PBT11
+PB01L;Tram entre PBT11-PBT12
+PB01M;Tram entre PBT12-PBT13
+PB01N;Tram entre PBT13-SCB03
+PB02A;Tram entre PBT02-PBB08
+PB02B;Tram entre PBB08-PBD01
+PB03A;Tram entre PBT03-PBD02
+PB04A;Tram entre PBT04-PBD03
+PB05A;Tram entre PBT05-PBD04
+PB06A;Tram entre PBT06-PBD05
+PB07A;Tram entre PBT08-PBD06
+PB08A;Tram entre PBT10-PBD07
+PB09A;Tram entre PBT11 (Ter. Vila-sec) - PBD08 (Dip. Vila-seca)
+PB10A;Tram entre PBT13-PBT91
+PB10B;Tram entre PBT91-PBB09
+PB10C;Tram entre PBT91-PBD09
+PB11A;Tram entre PBB02-PBD10
+PB12A;Tram entre PBT13-PBD11
+PB13A;Tram entre PBT14-PBD12
+PB14A;Tram PBT15-PBD13
+PB15A;Tram PBT16-PBD14
+PBB02;Estació Bombament EB-2
+PBB08;Estació Bombament l'Hospitalet de l'Infant EB-8
+PBB09;Estació Bombament Bonavista EB-9
+PBC01;Consum nou Montroig
+PBC02;Consum Asfaltos Españoles
+PBC03;Consum Basf Española
+PBC04;Consum Bassell Poliolefinas, AIT
+PBC05;Consum BIC Iberia
+PBC06;Consum Carburos Metálicos, AIT
+PBC07;Consum Clariant Ibérica
+PBC08;Consum Covestro
+PBC09;Consum DOW, Aitasa
+PBC10;Consum EDAR Tarragona
+PBC11;Consum ERCROS S.A. (Tarragona)
+PBC12;Consum ERCROS S.A. (Vilaseca I)
+PBC13;Consum ERCROS S.A. (Vilaseca II)
+PBC14;Consum I.Q.O.X.E.
+PBC15;Consum Messer Carburos, AIT
+PBC16;Consum MOEVE
+PBC17;Consum Peak Spain
+PBC18;Consum Repsol Butano
+PBC19;Consum Repsol Petróleo, AIT
+PBC20;Consum Repsol Química AIT
+PBC21;Consum RPK Metal Forming SAU
+PBD01;Dipòsit l'Hospitalet de l'Infant
+PBD02;Dipòsit Mont-roig del Camp
+PBD03;Dipòsit Cambrils Oest
+PBD04;Dipòsit Cambrils Poble
+PBD05;Dipòsit Vinyols i Els Arcs
+PBD06;Dipòsit Vilafortuny
+PBD07;Dipòsit Salou
+PBD08;Dipòsit Vila-Seca
+PBD09;Dipòsit Bonavista-Indústries (AITASA)
+PBD10;Dipòsit L'Hospitalet de L'Infant 2
+PBD11;Dipòsit de CIMALSA
+PBD12;Dipòsit Mont-roig Bahía
+PBD13;Dipòsit regulador Vila-seca-Nord
+PBD14;Dipòsit LOTTE
+PBS01;Secc. 1696 Mont-roig
+PBT01;Terciària Impulsió EB-2
+PBT02;Terciària l'Hospitalet de l'Infant-1
+PBT03;Terciària Mont-roig del Camp
+PBT04;Terciària Cambrils Oest
+PBT05;Terciària Cambrils Poble
+PBT06;Terciària Vinyols i els Arcs
+PBT07;Terciària Ramal Reus-Riudoms
+PBT08;Terciària Vilafortuny
+PBT09;Terciària Hormicemex
+PBT10;Terciària Salou
+PBT11;Terciària Vila-Seca
+PBT12;Terciària La Canonja-Pol. Antigons
+PBT13;Terciària Ramal Bonavista
+PBT14;Terciària Mont-roig Bahía
+PBT15;Terciària Vila-seca-Nord
+PBT16;Terciària LOTTE
+PBT91;Subterciària Tarragona-Bonavista
+PL010;Edifici Control
+PL011;Sala Servidors
+PL012;Lloc Central de Control ETAP
+PL013;Planta Baixa
+PL014;Planta +1
+PL015;Planta -1
+PL020;Taller i Magatzem
+PL030;Aula de l'aigua
+PL040;Exteriors/Obra civil
+PL050;Serveis auxiliars
+PL051;Xarxa d'aigua de servei i hidrants
+PL052;Xarxa de reg
+PL053;Xarxa de desguassos
+PL054;Xarxa de sanejament
+PL055;Xarxa d'aigües pluvials
+PL060;Arxiu
+PL070;Nau Temporal de Residus ETAP
+PL080;Caseta guarda ETAP
+PL090;Deixalleria
+PL100;Masia El Maset
+PL110;Terrenys Plantació
+PL120;Seguretat perimetral ETAP
+PL130;Nau emmagatzematge gran volum ETAP
+PV01A;Tram entre PVB04-PVT01
+PV01B;Tram entre PVT01-PVT02
+PV01C;Tram entre PVT02-PVT03
+PV01D;Tram entre PVT03-VVB14
+PV02A;Tram entre PVT01-PVT21
+PV02B;Tram entre PVT21-PVT22
+PV02C;Tram entre PVT22-PVT23
+PV02D;Tram entre PVT23-PVT24
+PV02E;Tram entre PVT24-PVD01
+PV02F;Tram entre PVT25 - PVT26
+PV02G;Tram entre PVT26-PVD04
+PV03A;Tram entre PVT02-PVD02
+PV04A;Tram entre PVT03-PVD03
+PV05A;Tram entre PVT21-PVD06
+PV06A;Tram entre PVT05-PVD07
+PVB04;Estació Bombament Perafort EB-4
+PVB27;Estació Bombament Pantà de Gaià EB-27
+PVC01;Consum Catllar urbanitzacions
+PVC02;Consum la Secuita
+PVD01;Dipòsit Pallaresos (Jardí de l'Imperi)
+PVD02;Dipòsit Perafort
+PVD03;Dipòsit Garidells
+PVD04;Dipòsit el Catllar - 5 Estrelles
+PVD06;Dipòsit Pallaresos Park
+PVD07;Dipòsit La Secuita
+PVT01;Terciària Ramal els Pallaresos
+PVT02;Terciària Perafort
+PVT03;Terciària Garidells
+PVT04;Terciària ADIF
+PVT05;Terciària La Secuita
+PVT21;Subterciària Urbanització Pallaresos Park
+PVT22;Subterciària Sant Salvador
+PVT23;Subterciària Pallaresos Poble
+PVT24;Subterciària Pallaresos-El Catllar
+PVT25;Subterciària el Catllar - 5 Estrelles
+PVT26;Subterciària els Pallaresos Poble (futur)
+RE010;Mequinensa
+RE020;Riba-roja d'Ebre
+RE030;Flix
+RE040;Ascó
+RE050;Xerta
+RE051;Xerta Canal dret
+RE052;Xerta Canal esquerre
+RE060;Tortosa
+ROSER;Roser Carré
+RR01A;Tram entre PBT07-RRB10
+RR01B;Tram entre RRB10-RRT01
+RR01C;Tram entre RRT01-ARQ27674
+RR01D;Tram entre ARQ27674-RRT03
+RR01E;Tram entre RRT03-RRT04
+RR01F;Tram entre RRT04-RSB12
+RR02A;Tram entre RRT01-RRD01
+RR03A;Tram entre ARQ27674-RRB11
+RR03B;Tram entre RRB11-RRD02
+RR04A;Tram entre RRT04-RRD03
+RR05A;Tram entre RRT05-RRD04
+RR06A;Tram entre RRT06-RRD05
+RR07A;Tram entre RRT07-RRT71
+RR07B;Tram entre RRT71-RRD06
+RR07C;Tram entre RRT71-RRT72
+RR07D;Tram entre RRT72-RRT73
+RR07E;Tram entre RRT73-RRD08
+RR08A;(OBSOLET) Tram entre RRT72-RRD07
+RR09A;(OBSOLET) Tram entre RRT73-RRD08 (MOGUT: RR07)
+RR10A;Tram entre RRT03-RRD12
+RR11A;Tram entre RRT73-RRB30
+RR11B;Tram entre RRB30-RRD13
+RR12A;Tram entre XXXXX-RRB26
+RRB10;Estació Bombament Reus-Riudoms EB-10
+RRB11;Estació Bombament Maspujols EB-11
+RRB26;Estació Bombament Borges del Camp EB-26
+RRB30;Estació Bombament Botarell EB-30
+RRC01;Consum Borges del Camp, cubes
+RRC02;Consum Alforja
+RRC03;Consum Alforja, cubes
+RRC04;Consum Alforja, cubes 2
+RRD01;Dipòsit Riudoms
+RRD02;Dipòsit Maspujols
+RRD03;Dipòsit Cargill
+RRD04;Dipòsit Pere Mata
+RRD05;Dipòsit Riudoms Polígon Industrial
+RRD06;Dipòsit Vinyols nucli
+RRD07;(OBSOLET) Dipòsit Parc Samà
+RRD08;Dipòsit Montbrió
+RRD09;Dipòsit regulador Les Borges del Camp
+RRD12;Dipòsit Reus Intermedi
+RRD13;Dipòsit Botarell
+RROIG;Raul Roig
+RRS01;Secc. 1847 abans de creuar riera Maspujols
+RRT01;Terciària Riudoms
+RRT02;Terciària Maspujols
+RRT03;Terciària Reus 2
+RRT04;Terciària Cargill
+RRT05;Terciària Pere Mata EB-12
+RRT06;Terciària Riudoms Polígon Industrial
+RRT07;Terciària Vinyols-Montbrió
+RRT71;Subterciària Vinyols nucli
+RRT72;Subterciària Cambrils Parc Samà
+RRT73;Subterciària Botarell
+RS01A;Tram entre RSB12-RST01
+RS01B;Tram entre RST01-RST02
+RS01C;Tram entre RST02-RST03
+RS01D;Tram entre RST03-RST04
+RS02A;Tram entre RST04-RST21
+RS02B;Tram entre RST21-RSD01
+RS02C;Tram entre RST21-RST22
+RS02D;Tram entre RST22-RSD02
+RS02E;Tram entre RST22-RSD03
+RS03A;Tram entre RST02-RSD04
+RS04A;Tram entre RST03-RSD05
+RS05A;Tram entre RST04-RSD06
+RS06A;Tram entre RST04-RSD07
+RS06B;Tram entre RST61-RSD08
+RS07A;Tram entre RST04-RSD09
+RSB12;Estació Bombament Reus-Pere Mata  EB-12
+RSC01;Consum Albiol, cubes
+RSD01;Dipòsit Castellvell 1
+RSD02;Dipòsit Castellvell 2
+RSD03;Dipòsit Regulador Castellvell 3
+RSD04;Dipòsit Almoster
+RSD05;Dipòsit La Pubilla
+RSD06;Dipòsit La Selva del Camp
+RSD07;Dipòsit Masies Catalanes-Albiol
+RSD08;Dipòsit Masies Catalanes-Alcover
+RSD09;Dipòsit La Selva del Camp nou
+RSS01;Secc. 27524 final 1r desdoblament
+RSS02;Secc. 2331 inici 2n desdoblament
+RSS03;Secc. 2289 final 2n desdoblament
+RSS04;Secc. 2302 inici 3r desdoblament
+RSS05;Secc. 2468 final 3r desdoblament
+RSS06;Secc. 2380 antiga a la carretera
+RSS21;Secc. 2332 ramal Castellvell derivació Castellvell-1
+RSS22;Secc. 2287 Subseccionament Castellvell
+RSS61;Secc. 26931 ramal La Selva passat polígon industrial
+RST01;Terciària Castellvell
+RST02;Terciària Almoster
+RST03;Terciària La Pubilla
+RST04;Terciària La Selva / Masies Catalanes
+RST21;Subterciària Castellvell 1
+RST22;Subterciària Castellvell 2-3
+RST61;Subterciària Masies Catalanes-Alcover
+SALOU;Salou
+SC01A;Tram entre SCB03-SCT01
+SC01B;Tram entre SCT01-SCT02
+SC01C;Tram entre SCT02-SCT03
+SC01D;Tram entre SCT03-SCT04
+SC01E;Tram entre SCT04-SCD01
+SC02A;Tram entre SCT02-SCD02
+SC03A;Tram entre SCT03-SCD03
+SC04A;Tram entre SCT04-SCD04
+SCB03;Estació Bombament Central EB-3
+SCB21;Estació Bombament Central EB-3 (bis)
+SCD01;Dipòsits Reguladors Cota 118
+SCD02;Dipòsit Riu Clar (fora de servei)
+SCD03;Dipòsit Sant Salvador
+SCD04;Dipòsit Sant Pere i Sant Pau
+SCT01;Terciària Ramal Constantí-Repsol
+SCT02;Terciària Riu Clar
+SCT03;Terciària Sant Salvador
+SCT04;Terciària Sant Pere i Sant Pau
+SIAUT;Autoritzacions
+SIBAK;Backups i Restauracions
+SID3D;Disseny 3D
+SIFOR;Formació
+SILAN;Xarxa informàtica
+SIMAQ;Maquetacions
+SIORD;Ordinadors
+SIOTH;Altres
+SIPER;Perifèrics
+SIPPT;Presentacions
+SIPRM;Permisos i usuaris
+SIREU;Preparar reunió
+SISCT;Videowall / electrònica de Sala de Control
+SISFT;Software (Programari)
+SISRV;Servidors
+SITLF;Telefonia
+SIVID;Videovigilància
+SSIMO;Sandra Simó
+TR010;Tram Aigua Crua
+TR011;Tram 1 Aigua Crua: EB-0 a Secc. Mas de la Misa
+TR012;Tram 2 Aigua Crua: Secc. Mas de la Misa a Secc. Deltatres
+TR013;Tram 3 Aigua Crua: Secc. Deltatres a ETAP
+TR020;Tram de Procés
+TR030;Tram de Precloració
+TR040;Tram Fangs a riu
+TR041;Fangs a riu: Caseta Marge esquerre
+TR042;Fangs a riu: Caseta riu
+TR043;Fangs a riu: Caseta marge dret
+TRS01;Secc. Mas de la misa
+TRS02;Secc. Deltatres aigua crua
+VALLS;Valls
+VC01A;Tram entre VCB18-VCD01
+VC02A;Tram entre VCT01-VCD02
+VCB18;Estació Bombament Valls EB-18
+VCD01;Dipòsit Regulador Cabra del Camp
+VCD02;Dipòsit Pla de Sta Maria
+VCT01;Terciària Ramal Pla de Sta Maria
+VV01A;Tram entre VVB14-VVT01
+VV01B;Tram entre VVT01-VVT02
+VV01C;Tram entre VVT02-VVT03
+VV01D;Tram entre VVT03-VVT04
+VV01E;(OBSOLET) Tram entre VVT04-VVT05 (NOU VV08A)
+VV01F;(OBSOLET) Tram entre VVT05-VVT06 (NOU VV08B)
+VV01G;(OBSOLET) Tram entre VVT06-VVT07 (NOU VV08C)
+VV01H;Tram entre VVT04-VVT07
+VV01I;Tram entre VVT07-VCB18
+VV02A;Tram entre VVT01-VVD01
+VV03A;Tram entre VVT03-VVD02
+VV04A;Tram entre VVT06-VVD03
+VV05A;Tram entre VCB18-VVD04
+VV06A;Tram entre VCB18-VVD05
+VV07A;Tram entre VVT10-VVD06
+VV08A;Tram entre VVT04-VVT05
+VV08B;Tram entre VVT05-VVT06
+VV08C;Tram entre VVT06-VVT07
+VVB14;Estació Bombament Vallmoll  EB-14
+VVD01;Dipòsit Polígon Industrial de Vallmoll-Cota 190
+VVD02;Dipòsit Urbanització Els Pinars (Vallmoll)
+VVD03;Dipòsit SCA
+VVD04;Dipòsit Palau Reig (Valls)
+VVD05;Dipòsit Municipal Valls
+VVD06;Dipòsit Puigpelat-2
+VVS01;Secc. 6941 PK 0+900
+VVS02;Secc. 6974 Xiquets de Valls
+VVT01;Terciària Polígon Industrial de Vallmoll
+VVT02;Terciària Urb. Plana de Sant Miquel (Vallmoll)
+VVT03;Terciària Urbanització Els Pinars (Vallmoll)
+VVT04;Terciària inici desdoblament Alt Camp
+VVT05;Terciària Puigpelat 1 (futura)
+VVT06;Terciària SCA
+VVT07;Terciària Final desdoblament Alt Camp
+VVT08;Futura Terciària Xiquets de Valls
+VVT09;(OBSOLET) Futura Terciària P.I. Nulles
+VVT10;Terciària Puigpelat 2
+XARXA;Vigilància de Xarxa
+XT010;Jardineria
+XT020;Tanques/...
+XT030;Vials
+XT040;Enllumenat
+XT050;Caseta guarda
+XT060;CAMPA
+XT070;Seguretat perimetral Central

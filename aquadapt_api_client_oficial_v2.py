@@ -413,35 +413,23 @@ class AquaAdvancedClient:
         detailed: bool = False,
     ) -> Any:
         """
-        Obtener programación de encendido/apagado de una bomba usando los enlaces href
+        Obtener programación on/off de una bomba
 
         Args:
             bomba_id: ID de la bomba
             start_time: Tiempo inicio en formato ISO8601
             end_time: Tiempo fin en formato ISO8601
-            detailed: Si usar endpoint detallado
+            detailed: Si usar endpoint detallado (incluye updateDate)
 
         Returns:
-            Datos de programación de encendido/apagado de la bomba
+            Datos de programación on/off de la bomba
         """
         try:
-            # Primero obtener info de la bomba para los enlaces href
-            info = self.get_bomba_info(bomba_id)
-            if not info:
-                return {}
-
-            # Usar el href proporcionado por la API
-            endpoint_key = "onoffschedule/detailed" if detailed else "onoffschedule"
-            if endpoint_key not in info:
-                logger.error(
-                    f"Endpoint {endpoint_key} no disponible para bomba {bomba_id}"
-                )
-                return {}
-
-            href = info[endpoint_key]["href"].replace(
-                "https://aquadvanced.ccaait.local",
-                "https://aquadvanced.ccaait.local/publication/physicalPumps/"
-                + f"{bomba_id}",
+            # Construir endpoint directamente
+            endpoint = (
+                f"physicalPumps/{bomba_id}/onoffschedule/detailed/"
+                if detailed
+                else f"physicalPumps/{bomba_id}/onoffschedule/"
             )
 
             params = {}
@@ -450,25 +438,16 @@ class AquaAdvancedClient:
             if end_time:
                 params["endTime"] = self._format_datetime_for_api(end_time)
 
-            # Hacer petición directa con el href
-            response = requests.get(
-                href,
-                params=params,
-                headers=self.headers,
-                verify=self.verify_ssl,
-                timeout=self.timeout,
-            )
-            response.raise_for_status()
+            # Hacer petición usando _make_request
+            response = self._make_request("GET", endpoint, params=params)
 
             return self._handle_api_response(response)
         except Exception as e:
-            logger.error(f"Error al obtener velocidad de bomba {bomba_id}: {e}")
-            logger.debug(
-                f"URL utilizada: {href if 'href' in locals() else 'No disponible'}"
-            )
+            logger.error(f"Error al obtener onoffschedule de bomba {bomba_id}: {e}")
+            logger.debug(f"Endpoint utilizado: physicalPumps/{bomba_id}/onoffschedule")
             return []
 
-    def get_bomba_onoffschedule(
+    def get_bomba_flowschedule(
         self,
         bomba_id: str,
         start_time: str = None,
@@ -476,35 +455,23 @@ class AquaAdvancedClient:
         detailed: bool = False,
     ) -> Any:
         """
-        Obtener programación on/off de una bomba usando los enlaces href
+        Obtener programación de caudal (flowschedule) de una bomba
 
         Args:
             bomba_id: ID de la bomba
             start_time: Tiempo inicio en formato ISO8601
             end_time: Tiempo fin en formato ISO8601
-            detailed: Si usar endpoint detallado
+            detailed: Si usar endpoint detallado (incluye updateDate)
 
         Returns:
-            Datos de programación on/off de la bomba
+            Datos de programación de caudal de la bomba
         """
         try:
-            # Primero obtener info de la bomba para los enlaces href
-            info = self.get_bomba_info(bomba_id)
-            if not info:
-                return {}
-
-            # Usar el href proporcionado por la API
-            endpoint_key = "onoffschedule/detailed" if detailed else "onoffschedule"
-            if endpoint_key not in info:
-                logger.error(
-                    f"Endpoint {endpoint_key} no disponible para bomba {bomba_id}"
-                )
-                return {}
-
-            href = info[endpoint_key]["href"].replace(
-                "https://aquadvanced.ccaait.local",
-                "https://aquadvanced.ccaait.local/publication/physicalPumps/"
-                + f"{bomba_id}",
+            # Construir endpoint directamente
+            endpoint = (
+                f"physicalPumps/{bomba_id}/flowschedule/detailed/"
+                if detailed
+                else f"physicalPumps/{bomba_id}/flowschedule/"
             )
 
             params = {}
@@ -513,22 +480,13 @@ class AquaAdvancedClient:
             if end_time:
                 params["endTime"] = self._format_datetime_for_api(end_time)
 
-            # Hacer petición directa con el href
-            response = requests.get(
-                href,
-                params=params,
-                headers=self.headers,
-                verify=self.verify_ssl,
-                timeout=self.timeout,
-            )
-            response.raise_for_status()
+            # Hacer petición usando _make_request
+            response = self._make_request("GET", endpoint, params=params)
 
             return self._handle_api_response(response)
         except Exception as e:
-            logger.error(f"Error al obtener onoffschedule de bomba {bomba_id}: {e}")
-            logger.debug(
-                f"URL utilizada: {href if 'href' in locals() else 'No disponible'}"
-            )
+            logger.error(f"Error al obtener flowschedule de bomba {bomba_id}: {e}")
+            logger.debug(f"Endpoint utilizado: physicalPumps/{bomba_id}/flowschedule")
             return []
 
     def get_valve_info(self, valve_id: str) -> Dict:
@@ -568,15 +526,19 @@ class AquaAdvancedClient:
             valve_id: ID de la válvula
             start_time: Tiempo inicio en formato ISO8601
             end_time: Tiempo fin en formato ISO8601
-            detailed: Si usar endpoint detallado
+            detailed: Si usar endpoint detallado (incluye updateDate)
 
         Returns:
             Datos de programación on/off de la válvula
         """
         try:
             # Construir endpoint directamente - requiere / al final antes de parámetros
-            endpoint = f"valves/{valve_id}/onoffschedule/detailed/" if detailed else f"valves/{valve_id}/onoffschedule/"
-            
+            endpoint = (
+                f"valves/{valve_id}/onoffschedule/detailed/"
+                if detailed
+                else f"valves/{valve_id}/onoffschedule/"
+            )
+
             params = {}
             if start_time:
                 params["startTime"] = self._format_datetime_for_api(start_time)
@@ -585,13 +547,11 @@ class AquaAdvancedClient:
 
             # Hacer petición usando _make_request
             response = self._make_request("GET", endpoint, params=params)
-            
+
             return self._handle_api_response(response)
         except Exception as e:
             logger.error(f"Error al obtener onoffschedule de válvula {valve_id}: {e}")
-            logger.debug(
-                f"Endpoint utilizado: valves/{valve_id}/onoffschedule"
-            )
+            logger.debug(f"Endpoint utilizado: valves/{valve_id}/onoffschedule")
             return []
 
     def get_valve_scheduledflow(
@@ -608,15 +568,19 @@ class AquaAdvancedClient:
             valve_id: ID de la válvula
             start_time: Tiempo inicio en formato ISO8601
             end_time: Tiempo fin en formato ISO8601
-            detailed: Si usar endpoint detallado
+            detailed: Si usar endpoint detallado (incluye updateDate)
 
         Returns:
             Datos de programación de caudal de la válvula
         """
         try:
             # Construir endpoint directamente - requiere / al final antes de parámetros
-            endpoint = f"valves/{valve_id}/scheduledflow/detailed/" if detailed else f"valves/{valve_id}/scheduledflow/"
-            
+            endpoint = (
+                f"valves/{valve_id}/scheduledflow/detailed/"
+                if detailed
+                else f"valves/{valve_id}/scheduledflow/"
+            )
+
             params = {}
             if start_time:
                 params["startTime"] = self._format_datetime_for_api(start_time)
@@ -625,13 +589,11 @@ class AquaAdvancedClient:
 
             # Hacer petición usando _make_request
             response = self._make_request("GET", endpoint, params=params)
-            
+
             return self._handle_api_response(response)
         except Exception as e:
             logger.error(f"Error al obtener scheduledflow de válvula {valve_id}: {e}")
-            logger.debug(
-                f"Endpoint utilizado: valves/{valve_id}/scheduledflow"
-            )
+            logger.debug(f"Endpoint utilizado: valves/{valve_id}/scheduledflow")
             return []
 
     def get_valves_list(self) -> List[Dict]:
