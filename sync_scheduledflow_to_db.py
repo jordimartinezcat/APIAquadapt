@@ -108,16 +108,18 @@ class OnOffScheduleSync:
 
     def obtener_mapeo_tags(self):
         """
-        Obtener mapeo de IDs API a IDTags desde tabla de integración
+        Obtener mapeo de IDs API a IDs desde tabla de integración
 
         Returns:
-            DataFrame con columnas: api_id, idtag, tipus
+            DataFrame con columnas: id, api_id, tag, tag_cabal, tipus
         """
         try:
             query = f"""
             SELECT 
+                id,
                 api_id,
-                idtag,
+                tag,
+                tag_cabal,
                 tipus
             FROM {SCHEMA_INTEGRATION}.{TABLE_MAPPING}
             ORDER BY api_id;
@@ -199,28 +201,59 @@ class OnOffScheduleSync:
                 logger.info(f"      ✅ {len(datos)} registros obtenidos")
                 return datos
             else:
-                logger.info(f"      ℹ️ Sin datos (respuesta vacía)")
+                logger.warning(f"      ⚠️ Respuesta inesperada: {type(datos)}")
                 return []
 
         except Exception as e:
-            logger.error(f"      ❌ Error consultando {device_name}: {e}")
+            logger.error(f"      ❌ Error consultando onoffschedule: {e}")
             return []
 
-    def transformar_datos(self, datos_raw, api_id, idtag, device_name):
+    def consultar_scheduledflow(self, device_id, device_name, start_time, end_time):
+        """
+        Consultar scheduledflow para una válvula (caudal programado)
+
+        Args:
+            device_id: ID de la válvula
+            device_name: Nombre de la válvula
+            start_time: Fecha/hora inicio
+            end_time: Fecha/hora fin
+
+        Returns:
+            Lista de registros con datos de caudal
+        """
+        try:
+            logger.info(f"   📡 Consultando scheduledflow (caudal) de: {device_name}")
+
+            datos = self.client.get_valve_scheduledflow(
+                device_id, start_time.isoformat(), end_time.isoformat()
+            )
+
+            if isinstance(datos, list):
+                logger.info(f"      ✅ {len(datos)} registros de caudal obtenidos")
+                return datos
+            else:
+                logger.warning(f"      ⚠️ Respuesta inesperada: {type(datos)}")
+                return []
+
+        except Exception as e:
+            logger.error(f"      ❌ Error consultando scheduledflow: {e}")
+            return []
+
+    def transformar_datos(self, datos_raw, api_id, record_id, device_name):
         """
         Transformar datos de API al formato de tabla destino
 
         Args:
             datos_raw: Datos crudos de la API
             api_id: ID de la API
-            idtag: ID del tag para insertar
+            record_id: ID del registro para insertar
             device_name: Nombre del dispositivo
 
         Returns:
-            DataFrame con columnas: fecha, idtag, valor
+            DataFrame con columnas: fecha, id, valor_on_off
         """
         if not datos_raw or len(datos_raw) == 0:
-            return pd.DataFrame(columns=["fecha", "idtag", "valor"])
+            return pd.DataFrame(columns=["fecha", "id", "valor_on_off"])
 
         try:
             # Convertir a DataFrame
@@ -240,41 +273,103 @@ class OnOffScheduleSync:
                 )
                 df_transformed["fecha"] = datetime.now()
 
-            # Asignar idtag
-            df_transformed["idtag"] = idtag
+            # Asignar id
+            df_transformed["id"] = record_id
 
-            # Extraer valor (ajustar según estructura de respuesta)
+            # Extraer valor on/off (ajustar según estructura de respuesta)
             if "value" in df.columns:
-                df_transformed["valor"] = df["value"]
+                df_transformed["valor_on_off"] = df["value"]
             elif "flowrate" in df.columns:
-                df_transformed["valor"] = df["flowrate"]
+                df_transformed["valor_on_off"] = df["flowrate"]
             elif "setpoint" in df.columns:
-                df_transformed["valor"] = df["setpoint"]
+                df_transformed["valor_on_off"] = df["setpoint"]
             else:
                 logger.warning(
                     f"⚠️ No se encontró columna de valor en datos de {device_name}"
                 )
-                df_transformed["valor"] = None
+                df_transformed["valor_on_off"] = None
 
             # Filtrar nulls
-            df_transformed = df_transformed.dropna(subset=["valor"])
+            df_transformed = df_transformed.dropna(subset=["valor_on_off"])
 
             logger.info(
-                f"      🔄 Transformados {len(df_transformed)} registros para idtag={idtag}"
+                f"      🔄 Transformados {len(df_transformed)} registros para id={record_id}"
             )
 
             return df_transformed
 
         except Exception as e:
             logger.error(f"❌ Error transformando datos de {device_name}: {e}")
-            return pd.DataFrame(columns=["fecha", "idtag", "valor"])
+            return pd.DataFrame(columns=["fecha", "id", "valor_on_off"])
+
+    def transformar_datos_caudal(self, datos_raw, record_id, device_name):
+        """
+        Transformar datos de caudal (scheduledflow) de API al formato de tabla destino
+
+        Args:
+            datos_raw: Datos crudos de la API (scheduledflow)
+            record_id: ID del registro para insertar
+            device_name: Nombre del dispositivo
+
+        Returns:
+            DataFrame con columnas: fecha, id, valor_caudal
+        """
+        if not datos_raw or len(datos_raw) == 0:
+            return pd.DataFrame(columns=["fecha", "id", "valor_caudal"])
+
+        try:
+            # Convertir a DataFrame
+            df = pd.DataFrame(datos_raw)
+
+            # Transformar según estructura esperada
+            df_transformed = pd.DataFrame()
+
+            # Mapear columnas (ajustar según respuesta real de API)
+            if "timestamp" in df.columns:
+                df_transformed["fecha"] = pd.to_datetime(df["timestamp"])
+            elif "time" in df.columns:
+                df_transformed["fecha"] = pd.to_datetime(df["time"])
+            else:
+                logger.warning(
+                    f"⚠️ No se encontró columna de fecha en datos de caudal de {device_name}"
+                )
+                df_transformed["fecha"] = datetime.now()
+
+            # Asignar id
+            df_transformed["id"] = record_id
+
+            # Extraer valor de caudal
+            if "value" in df.columns:
+                df_transformed["valor_caudal"] = df["value"]
+            elif "flowrate" in df.columns:
+                df_transformed["valor_caudal"] = df["flowrate"]
+            elif "setpoint" in df.columns:
+                df_transformed["valor_caudal"] = df["setpoint"]
+            else:
+                logger.warning(
+                    f"⚠️ No se encontró columna de caudal en datos de {device_name}"
+                )
+                df_transformed["valor_caudal"] = None
+
+            # Filtrar nulls
+            df_transformed = df_transformed.dropna(subset=["valor_caudal"])
+
+            logger.info(
+                f"      🔄 Transformados {len(df_transformed)} registros de caudal para id={record_id}"
+            )
+
+            return df_transformed
+
+        except Exception as e:
+            logger.error(f"❌ Error transformando datos de caudal de {device_name}: {e}")
+            return pd.DataFrame(columns=["fecha", "id", "valor_caudal"])
 
     def insertar_datos(self, df_datos):
         """
         Insertar datos en tabla destino usando inserción batch optimizada
 
         Args:
-            df_datos: DataFrame con columnas fecha, idtag, valor
+            df_datos: DataFrame con columnas fecha, id, valor_on_off, valor_caudal (opcional)
         """
         if df_datos is None or len(df_datos) == 0:
             logger.info("ℹ️ No hay datos para insertar")
@@ -291,8 +386,12 @@ class OnOffScheduleSync:
             df_insert = df_datos.copy()
             df_insert["fecha"] = df_insert["fecha"].dt.strftime("%Y-%m-%d %H:%M:%S")
 
-            # Convertir valor a entero
-            df_insert["valor"] = df_insert["valor"].astype(int)
+            # Asegurar tipos de datos correctos
+            if "valor_on_off" in df_insert.columns:
+                df_insert["valor_on_off"] = df_insert["valor_on_off"].fillna(0).astype(int)
+            
+            if "valor_caudal" in df_insert.columns:
+                df_insert["valor_caudal"] = df_insert["valor_caudal"].astype(float)
 
             # Inserción batch optimizada: construir un solo INSERT con múltiples VALUES
             BATCH_SIZE = 500  # Insertar de 500 en 500
@@ -304,18 +403,26 @@ class OnOffScheduleSync:
                 # Construir VALUES para este batch
                 values_list = []
                 for _, row in batch.iterrows():
+                    valor_on_off = row.get('valor_on_off', 'NULL')
+                    valor_caudal = row.get('valor_caudal', 'NULL')
+                    
+                    # Formatear NULL correctamente
+                    valor_on_off_str = 'NULL' if pd.isna(valor_on_off) else str(int(valor_on_off))
+                    valor_caudal_str = 'NULL' if pd.isna(valor_caudal) else str(float(valor_caudal))
+                    
                     values_list.append(
-                        f"('{row['fecha']}', '{row['idtag']}', {row['valor']})"
+                        f"('{row['fecha']}', '{row['id']}', {valor_on_off_str}, {valor_caudal_str})"
                     )
                 
                 values_str = ",\n                ".join(values_list)
                 
                 query = f"""
-                INSERT INTO {SCHEMA_LANDING}.{TABLE_TARGET} (fecha, idtag, valor)
+                INSERT INTO {SCHEMA_LANDING}.{TABLE_TARGET} (fecha, id, valor_on_off, valor_caudal)
                 VALUES 
                 {values_str}
-                ON CONFLICT (fecha, idtag) DO UPDATE 
-                SET valor = EXCLUDED.valor;
+                ON CONFLICT (fecha, id) DO UPDATE 
+                SET valor_on_off = COALESCE(EXCLUDED.valor_on_off, {SCHEMA_LANDING}.{TABLE_TARGET}.valor_on_off),
+                    valor_caudal = COALESCE(EXCLUDED.valor_caudal, {SCHEMA_LANDING}.{TABLE_TARGET}.valor_caudal);
                 """
                 
                 self.db.get_data(query)
@@ -369,7 +476,7 @@ class OnOffScheduleSync:
         logger.info(f"\n🔧 Procesando BOMBAS...")
         for _, map_row in mapping_bombas.iterrows():
             api_id = map_row["api_id"]
-            idtag = map_row["idtag"]
+            record_id = map_row["id"]
 
             # Buscar bomba en lista de API
             bomba = next((b for b in bombas if b.get("id") == api_id), None)
@@ -387,7 +494,7 @@ class OnOffScheduleSync:
 
             if len(datos_raw) > 0:
                 df_device = self.transformar_datos(
-                    datos_raw, api_id, idtag, nombre_bomba
+                    datos_raw, api_id, record_id, nombre_bomba
                 )
                 if len(df_device) > 0:
                     df_todos = pd.concat([df_todos, df_device], ignore_index=True)
@@ -396,7 +503,7 @@ class OnOffScheduleSync:
         logger.info(f"\n🚰 Procesando VÁLVULAS...")
         for _, map_row in mapping_valvulas.iterrows():
             api_id = map_row["api_id"]
-            idtag = map_row["idtag"]
+            record_id = map_row["id"]
 
             # Buscar válvula en lista de API
             valvula = next((v for v in valvulas if v.get("id") == api_id), None)
@@ -408,14 +515,38 @@ class OnOffScheduleSync:
             nombre_valvula = valvula.get("name", api_id[:8])
 
             # Consultar onoffschedule
-            datos_raw = self.consultar_onoffschedule(
+            datos_raw_onoff = self.consultar_onoffschedule(
                 api_id, nombre_valvula, 'valvula', start_time, end_time
             )
 
-            if len(datos_raw) > 0:
-                df_device = self.transformar_datos(
-                    datos_raw, api_id, idtag, nombre_valvula
+            if len(datos_raw_onoff) > 0:
+                df_onoff = self.transformar_datos(
+                    datos_raw_onoff, api_id, record_id, nombre_valvula
                 )
+                
+                # Para válvulas, consultar también scheduledflow (caudal)
+                datos_raw_caudal = self.consultar_scheduledflow(
+                    api_id, nombre_valvula, start_time, end_time
+                )
+                
+                if len(datos_raw_caudal) > 0:
+                    df_caudal = self.transformar_datos_caudal(
+                        datos_raw_caudal, record_id, nombre_valvula
+                    )
+                    
+                    # Combinar on/off con caudal usando merge por fecha e id
+                    if len(df_caudal) > 0:
+                        df_device = pd.merge(
+                            df_onoff, 
+                            df_caudal, 
+                            on=['fecha', 'id'], 
+                            how='outer'
+                        )
+                    else:
+                        df_device = df_onoff
+                else:
+                    df_device = df_onoff
+                
                 if len(df_device) > 0:
                     df_todos = pd.concat([df_todos, df_device], ignore_index=True)
 

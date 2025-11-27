@@ -594,6 +594,46 @@ class AquaAdvancedClient:
             )
             return []
 
+    def get_valve_scheduledflow(
+        self,
+        valve_id: str,
+        start_time: str = None,
+        end_time: str = None,
+        detailed: bool = False,
+    ) -> Any:
+        """
+        Obtener programación de caudal (scheduledflow) de una válvula
+
+        Args:
+            valve_id: ID de la válvula
+            start_time: Tiempo inicio en formato ISO8601
+            end_time: Tiempo fin en formato ISO8601
+            detailed: Si usar endpoint detallado
+
+        Returns:
+            Datos de programación de caudal de la válvula
+        """
+        try:
+            # Construir endpoint directamente - requiere / al final antes de parámetros
+            endpoint = f"valves/{valve_id}/scheduledflow/detailed/" if detailed else f"valves/{valve_id}/scheduledflow/"
+            
+            params = {}
+            if start_time:
+                params["startTime"] = self._format_datetime_for_api(start_time)
+            if end_time:
+                params["endTime"] = self._format_datetime_for_api(end_time)
+
+            # Hacer petición usando _make_request
+            response = self._make_request("GET", endpoint, params=params)
+            
+            return self._handle_api_response(response)
+        except Exception as e:
+            logger.error(f"Error al obtener scheduledflow de válvula {valve_id}: {e}")
+            logger.debug(
+                f"Endpoint utilizado: valves/{valve_id}/scheduledflow"
+            )
+            return []
+
     def get_valves_list(self) -> List[Dict]:
         """
         Obtener lista de válvulas desde la API o archivo local
